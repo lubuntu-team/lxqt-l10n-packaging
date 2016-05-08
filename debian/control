@@ -1,0 +1,49 @@
+Source: lxqt-translations
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>,
+           ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
+Section: utils
+Priority: optional
+Build-Depends: cmake (>= 3.0.2),
+               debhelper (>= 9.20151219),
+               pkg-config,
+               qttools5-dev,
+               qttools5-dev-tools
+Standards-Version: 3.9.8 
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-translations.git/?h=debian/sid
+Vcs-Git: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-translations.git -b debian/sid
+Homepage: https://github.com/lxde/liblxqt
+
+
+#Package: compton-conf-translations
+#Package: libfm-qt-translations
+#Package: liblxqt-translations
+#Package: lximage-qt-translations
+#Package: lxqt-about-translations
+#Package: lxqt-admin-translations
+#Package: lxqt-common-translations
+#Package: lxqt-config-translations
+#Package: lxqt-globalkeys-translations
+#Package: lxqt-notificationd-translations
+#Package: lxqt-openssh-askpass-translations
+#Package: lxqt-panel-translations
+#Package: lxqt-policykit-translations
+#Package: lxqt-powermanagement-translations
+#Package: lxqt-qtplugin-translations (no translations right now)
+#Package: lxqt-runner-translations
+#Package: lxqt-session-translations
+
+Package: lxqt-sudo-translations
+Architecture: all
+Multi-Arch: same 
+Depends: ${shlibs:Depends},
+         ${misc:Depends}  
+Breaks: lxqt-sudo
+Replaces: lxqt-sudo
+Description: Translations for LXQt
+ This package contains the translation files  needed by the LXQt desktop
+ environment.
+
+#Package: obconf-qt-translations
+#Package: pcmanfam-qt-translations
+#Package: qterminal-translations
