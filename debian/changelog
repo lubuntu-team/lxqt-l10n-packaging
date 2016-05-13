@@ -1,5 +1,5 @@
-lxqt-translations (0.10.1~beta-1) unstable; urgency=medium
+lxqt-l10n (0.10.9-1) experimental; urgency=medium
 
-  * Initial release. (Closes: #XXXXXX)
+  * Initial release. (Closes: #824225)
 
- -- Alf Gaida <agaida@siduction.org>  Sun, 08 May 2016 15:28:18 +0200
+ -- Alf Gaida <agaida@siduction.org>  Fri, 13 May 2016 23:15:35 +0200
