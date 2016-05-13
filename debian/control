@@ -27,7 +27,7 @@ Architecture: all
 Depends: ${misc:Depends}
 Breaks: libfm-qt
 Replaces: libfm-qt
-Description: Language packge for libfm-qt
+Description: Language package for libfm-qt
  This package contains the l10n files needed by the libfm-qt.
 
 Package: liblxqt-l10n
@@ -144,7 +144,7 @@ Architecture: all
 Depends: ${misc:Depends}  
 Breaks: lxqt-sudo
 Replaces: lxqt-sudo
-Description: Language pacakge for lxqt-sudo
+Description: Language package for lxqt-sudo
  This package contains the l10n files needed by the lxqt-sudo.
 
 Package: obconf-qt-l10n
@@ -160,7 +160,7 @@ Architecture: all
 Depends: ${misc:Depends}
 Breaks: pcmanfm-qt
 Replaces: pcmanfm-qt
-Description: Language pacakge for pcmanfm-qt
+Description: Language package for pcmanfm-qt
  This package contains the l10n files needed by the pcmanfm-qt.
 
 Package: qterminal-l10n
@@ -168,5 +168,5 @@ Architecture: all
 Depends: ${misc:Depends}
 Breaks: qterminal
 Replaces: qterminal
-Description: Language pacakge for qterminal
+Description: Language package for qterminal
  This package contains the l10n files needed by the qterminal.
