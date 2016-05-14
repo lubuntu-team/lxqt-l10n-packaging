@@ -9,6 +9,7 @@ Build-Depends: cmake (>= 3.0.2),
                libkf5windowsystem-dev,
                liblxqt0-dev,
                libqt5x11extras5-dev,
+               libqt5xdg-dev,
                pkg-config,
                qttools5-dev,
                qttools5-dev-tools
