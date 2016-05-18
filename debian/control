@@ -16,7 +16,7 @@ Build-Depends: cmake (>= 3.0.2),
 Standards-Version: 3.9.8 
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-l10n.git/?h=debian/sid
 Vcs-Git: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-l10n.git -b debian/sid
-Homepage: https://github.com/lxde/translation
+Homepage: https://github.com/lxde/translations
 
 Package: compton-conf-l10n
 Architecture: all
