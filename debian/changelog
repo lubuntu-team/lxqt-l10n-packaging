@@ -1,12 +1,23 @@
-lxqt-l10n (0.10.9-2) UNRELEASED; urgency=medium
+lxqt-l10n (0.10.95~20-g4a053f4-2) experimental; urgency=medium
 
+  * Added missed build dependencies:
+    - libkf5windowsystem-dev
+    - liblxqt0-dev (>= 0.10.96~)
+    - libqt5x11extras5-dev
+    - libqt5xdg-dev (>= 1.3.1~) 
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 18 Jul 2016 00:00:36 +0200
+
+lxqt-l10n (0.10.95~20-g4a053f4-1) experimental; urgency=medium
+
+  * Cherry-picking upstream version 0.10.95~20-g4a053f4.
   * Fixed copyright Format field
   * Added versioned breaks and replaces for compton-conf
   * Fixed VCS fields, using plain /git/
   * Exported LC_ALL=C.UTF-8, for reproducible builds
   * Added docs
 
- -- Alf Gaida <agaida@siduction.org>  Sun, 17 Jul 2016 15:42:33 +0200
+ -- Alf Gaida <agaida@siduction.org>  Sun, 17 Jul 2016 15:53:46 +0200
 
 lxqt-l10n (0.10.9-1) experimental; urgency=medium
 
