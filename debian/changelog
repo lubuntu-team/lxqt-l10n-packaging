@@ -1,3 +1,13 @@
+lxqt-l10n (0.10.9-2) UNRELEASED; urgency=medium
+
+  * Fixed copyright Format field
+  * Added versioned breaks and replaces for compton-conf
+  * Fixed VCS fields, using plain /git/
+  * Exported LC_ALL=C.UTF-8, for reproducible builds
+  * Added docs
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 17 Jul 2016 15:42:33 +0200
+
 lxqt-l10n (0.10.9-1) experimental; urgency=medium
 
   * Initial release. (Closes: #824225)
