@@ -22,48 +22,48 @@ Homepage: https://github.com/lxde/translations
 Package: compton-conf-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: compton-conf (<< 0.1.95~)
-Replaces: compton-conf (<< 0.1.95~)
+Breaks: compton-conf (<< 0.2.0)
+Replaces: compton-conf (<< 0.2.0)
 Description: Language package for compton-conf
  This package contains the l10n files needed by the compton-conf.
 
 Package: libfm-qt-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: libfm-qt (<< 0.11.1~)
-Replaces: libfm-qt (<< 0.11.1~)
+Breaks: libfm-qt3 (<< 0.11.1)
+Replaces: libfm-qt3 (<< 0.11.1)
 Description: Language package for libfm-qt
  This package contains the l10n files needed by the libfm-qt.
 
 Package: liblxqt-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: liblxqt (<< 0.10.95~)
-Replaces: liblxqt (<< 0.10.95~)
+Breaks: liblxqt0 (<< 0.11.0)
+Replaces: liblxqt0 (<< 0.11.0)
 Description: Language package for liblxqt
  This package contains the l10n files needed by the liblxqt.
 
 Package: lximage-qt-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: lximage-qt (<< 0.4.1~)
-Replaces: lximage-qt (<< 0.4.1~)
+Breaks: lximage-qt (<< 0.5.0)
+Replaces: lximage-qt (<< 0.5.0)
 Description: Language-package for lximage-qt
  This package contains the l10n files needed by the lximage-qt.
 
 Package: lxqt-about-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: lxqt-about (<< 0.10.95~)
-Replaces: lxqt-about (<< 0.10.95~) 
+Breaks: lxqt-about (<< 0.11.0)
+Replaces: lxqt-about (<< 0.11.0) 
 Description: Language package for lxqt-about
  This package contains the l10n files needed by the lxqt-about.
 
 Package: lxqt-admin-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: lxqt-admin (<< 0.10.95~)
-Replaces: lxqt-admin (<< 0.10.95~)
+Breaks: lxqt-admin (<< 0.11.0)
+Replaces: lxqt-admin (<< 0.11.0)
 Description: Language package for lxqt-admin
  This package contains the l10n files needed by the lxqt-admin.
 
@@ -73,56 +73,56 @@ Description: Language package for lxqt-admin
 Package: lxqt-config-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: lxqt-config (<< 0.10.95~)
-Replaces: lxqt-config (<< 0.10.95~)
+Breaks: lxqt-config (<< 0.11.0)
+Replaces: lxqt-config (<< 0.11.0)
 Description: Language package for lxqt-config
  This package contains the l10n files needed by the lxqt-config.
 
 Package: lxqt-globalkeys-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: lxqt-globalkeys (<< 0.10.95~)
-Replaces: lxqt-globalkeys (<< 0.10.95~)
+Breaks: lxqt-globalkeys (<< 0.11.0)
+Replaces: lxqt-globalkeys (<< 0.11.0)
 Description: Language package for lxqt-globalkeys
  This package contains the l10n files needed by the lxqt-globalkeys.
 
 Package: lxqt-notificationd-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: lxqt-notificationd (<< 0.10.95~)
-Replaces: lxqt-notificationd (<< 0.10.95~)
+Breaks: lxqt-notificationd (<< 0.11.0)
+Replaces: lxqt-notificationd (<< 0.11.0)
 Description: Language package for lxqt-notificationd
  This package contains the l10n files needed by the lxqt-notificationd.
 
 Package: lxqt-openssh-askpass-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: lxqt-openssh-askpass (<< 0.10.95~)
-Replaces: lxqt-openssh-askpass (<< 0.10.95~)
+Breaks: lxqt-openssh-askpass (<< 0.11.0)
+Replaces: lxqt-openssh-askpass (<< 0.11.0)
 Description: Language package for lxqt-openssh-askpass
  This package contains the l10n files needed by the lxqt-openssh-askpass.
 
 Package: lxqt-panel-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: lxqt-panel (<< 0.10.95~)
-Replaces: lxqt-panel (<< 0.10.95~)
+Breaks: lxqt-panel (<< 0.11.0)
+Replaces: lxqt-panel (<< 0.11.0)
 Description: Language package for lxqt-panel
  This package contains the l10n files needed by the lxqt-panel.
 
 Package: lxqt-policykit-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: lxqt-policykit (<< 0.10.95~)
-Replaces: lxqt-policykit (<< 0.10.95~)
+Breaks: lxqt-policykit (<< 0.11.0)
+Replaces: lxqt-policykit (<< 0.11.0)
 Description: Language package for lxqt-policykit
  This package contains the l10n files needed by the lxqt-policykit.
 
 Package: lxqt-powermanagement-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: lxqt-powermanagement (<< 0.10.95~)
-Replaces: lxqt-powermanagement (<< 0.10.95~)
+Breaks: lxqt-powermanagement (<< 0.11.0)
+Replaces: lxqt-powermanagement (<< 0.11.0)
 Description: Language package for lxqt-powermanagement
  This package contains the l10n files needed by the lxqt-powermangement.
 
@@ -131,32 +131,32 @@ Description: Language package for lxqt-powermanagement
 Package: lxqt-runner-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: lxqt-runner (<< 0.10.95~)
-Replaces: lxqt-runner (<< 0.10.95~)
+Breaks: lxqt-runner (<< 0.11.0)
+Replaces: lxqt-runner (<< 0.11.0)
 Description: Language package for lxqt-runner
  This package contains the l10n files needed by the lxqt-runner.
 
 Package: lxqt-session-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: lxqt-session (<< 0.10.95~)
-Replaces: lxqt-session (<< 0.10.95~)
+Breaks: lxqt-session (<< 0.11.0)
+Replaces: lxqt-session (<< 0.11.0)
 Description: Language package for lxqt-session
  This package contains the l10n files needed by the lxqt-session.
 
 Package: lxqt-sudo-l10n
 Architecture: all
 Depends: ${misc:Depends}  
-Breaks: lxqt-sudo (<< 0.10.95~)
-Replaces: lxqt-sudo (<< 0.10.95~)
+Breaks: lxqt-sudo (<< 0.11.0)
+Replaces: lxqt-sudo (<< 0.11.0)
 Description: Language package for lxqt-sudo
  This package contains the l10n files needed by the lxqt-sudo.
 
 Package: obconf-qt-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: obconf-qt (<< 0.9.95~)
-Replaces: obconf-qt (<< 0.9.95~)
+Breaks: obconf-qt (<< 0.11.0)
+Replaces: obconf-qt (<< 0.11.0)
 Description: Language package for obconf-qt
  This package contains the l10n files needed by the obconf-qt.
 
@@ -169,15 +169,15 @@ Description: Language package for pavucontrol-qt
 Package: pcmanfm-qt-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: pcmanfm-qt (<< 0.11.1~)
-Replaces: pcmanfm-qt (<< 0.11.1~)
+Breaks: pcmanfm-qt (<< 0.11.1)
+Replaces: pcmanfm-qt (<< 0.11.1)
 Description: Language package for pcmanfm-qt
  This package contains the l10n files needed by the pcmanfm-qt.
 
 Package: qterminal-l10n
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: qterminal (<< 0.6.1~)
-Replaces: qterminal (<< 0.6.1~)
+Breaks: qterminal (<< 0.6.1)
+Replaces: qterminal (<< 0.6.1)
 Description: Language package for qterminal
  This package contains the l10n files needed by the qterminal.

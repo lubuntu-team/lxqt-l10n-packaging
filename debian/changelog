@@ -1,3 +1,9 @@
+lxqt-l10n (0.11.0-19-g717bd7e-2) experimental; urgency=medium
+
+  * Fixed package names and versions in Breaks and Replaces (Closes: #840679)
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 13 Oct 2016 21:54:50 +0200
+
 lxqt-l10n (0.11.0-19-g717bd7e-1) experimental; urgency=medium
 
   * Cherry picking upstream version 0.11.0-19-g717bd7e. 
