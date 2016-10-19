@@ -4,12 +4,12 @@
 <context>
     <name>LXQtMainMenu</name>
     <message>
-        <location filename="../../../lxqtmainmenu.cpp" line="94"/>
+        <location filename="../../../lxqtmainmenu.cpp" line="95"/>
         <source>Search...</source>
         <translation>Cerca...</translation>
     </message>
     <message>
-        <location filename="../../../lxqtmainmenu.cpp" line="100"/>
+        <location filename="../../../lxqtmainmenu.cpp" line="101"/>
         <source>Show/hide main menu</source>
         <translation>Mostra/nascondi menu principale</translation>
     </message>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../../../lxqtmainmenuconfiguration.ui" line="14"/>
         <source>Main Menu settings</source>
-        <translation>Impostazioni del menù principale di LXQt</translation>
+        <translation>Impostazioni del menu principale di LXQt</translation>
     </message>
     <message>
         <location filename="../../../lxqtmainmenuconfiguration.ui" line="35"/>
@@ -49,12 +49,12 @@
     <message>
         <location filename="../../../lxqtmainmenuconfiguration.ui" line="105"/>
         <source>Menu file</source>
-        <translation>File del menù</translation>
+        <translation>File del menu</translation>
     </message>
     <message>
         <location filename="../../../lxqtmainmenuconfiguration.ui" line="111"/>
         <source>Menu file:</source>
-        <translation>File del menù:</translation>
+        <translation>File del menu:</translation>
     </message>
     <message>
         <location filename="../../../lxqtmainmenuconfiguration.ui" line="169"/>
@@ -89,7 +89,7 @@
     <message>
         <location filename="../../../lxqtmainmenuconfiguration.ui" line="223"/>
         <source>Hide menu entries while searching</source>
-        <translation>Nascondi menù durante la ricerca</translation>
+        <translation>Nascondi menu durante la ricerca</translation>
     </message>
     <message>
         <location filename="../../../lxqtmainmenuconfiguration.ui" line="127"/>
@@ -119,12 +119,12 @@
     <message>
         <location filename="../../../lxqtmainmenuconfiguration.cpp" line="170"/>
         <source>Choose menu file</source>
-        <translation>Selezione file del menù</translation>
+        <translation>Selezione file del menu</translation>
     </message>
     <message>
         <location filename="../../../lxqtmainmenuconfiguration.cpp" line="172"/>
         <source>Menu files (*.menu)</source>
-        <translation>File di menù (*.menu)</translation>
+        <translation>File di menu (*.menu)</translation>
     </message>
 </context>
 </TS>

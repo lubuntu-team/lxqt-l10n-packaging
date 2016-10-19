@@ -5,19 +5,16 @@
     <name>PasswordDialog</name>
     <message>
         <location filename="../../passworddialog.ui" line="20"/>
-        <location filename="../../build/ui_passworddialog.h" line="129"/>
         <source>LXQt sudo</source>
         <translation>LXQt sudo</translation>
     </message>
     <message>
         <location filename="../../passworddialog.ui" line="77"/>
-        <location filename="../../build/ui_passworddialog.h" line="134"/>
         <source>Command:</source>
         <translation>Εντολή:</translation>
     </message>
     <message>
         <location filename="../../passworddialog.ui" line="84"/>
-        <location filename="../../build/ui_passworddialog.h" line="135"/>
         <source>Password:</source>
         <translation>Κωδικός πρόσβασης:</translation>
     </message>
@@ -37,7 +34,6 @@ Please enter your password.</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../main.cpp" line="57"/>
         <source>Usage: %1 command [arguments...]
 
 GUI frontend for %2
@@ -58,19 +54,95 @@ Arguments:
 </translation>
     </message>
     <message>
-        <location filename="../../main.cpp" line="69"/>
+        <location filename="../../sudo.cpp" line="63"/>
+        <source>Usage: %1 option [command [arguments...]]
+
+GUI frontend for %2/%3
+
+Arguments:
+  option:
+    -h|--help      Print this help.
+    -v|--version   Print version information.
+    -s|--su        Use %3(1) as backend.
+    -d|--sudo      Use %2(8) as backend.
+  command          Command to run.
+  arguments        Optional arguments for command.
+
+</source>
+        <translation>Χρήση: %1 επιλογή [εντολή ορίσματα...]]
+
+περιβάλλον συστήματος υποστήριξης για το %2/%3
+
+Ορίσματα:
+  επιλογή:
+    -h|--help      Εκτύπωση της βοήθειας.
+    -v|--version   Εκτύπωση της έκδοσης.
+    -s|--su        Χρήση του %3(1) ως σύστημα υποστήριξης.
+    -d|--sudo      Χρήση του %2(8) ως σύστημα υποστήριξης.
+  εντολή          Εντολή προς εκτέλεση.
+  ορίσματα        Προαιρετικά ορίσματα της εντολής.
+
+</translation>
+    </message>
+    <message>
+        <location filename="../../sudo.cpp" line="80"/>
         <source>%1 version %2
 </source>
         <translation>%1 έκδοση %2
 </translation>
     </message>
     <message>
-        <location filename="../../main.cpp" line="80"/>
         <source>%1: no command to run provided!</source>
         <translation>%1: δεν παρείχατε κάποια εντολή προς εκτέλεση!</translation>
     </message>
     <message>
-        <location filename="../../main.cpp" line="131"/>
+        <source>Child &apos;%1&apos; process failed!
+%2</source>
+        <translation>Η θυγατρική διεργασία «%1» απέτυχε!
+%2</translation>
+    </message>
+</context>
+<context>
+    <name>Sudo</name>
+    <message>
+        <location filename="../../sudo.cpp" line="135"/>
+        <source>%1: no command to run provided!</source>
+        <translation>%1: δεν παρείχατε κάποια εντολή προς εκτέλεση!</translation>
+    </message>
+    <message>
+        <location filename="../../sudo.cpp" line="142"/>
+        <source>%1: no backend chosen!</source>
+        <translation>%1: δεν έχετε επιλέξει το σύστημα υποστήριξης!</translation>
+    </message>
+    <message>
+        <location filename="../../sudo.cpp" line="147"/>
+        <source>%1: warning - got multiple arguments for %2 backend, squashing into one: %3</source>
+        <translation>%1: προειδοποίηση - ελήφθησαν πολλαπλά ορίσματα για το σύστημα υποστήριξης %2· διατήρηση του ενός: %3</translation>
+    </message>
+    <message>
+        <location filename="../../sudo.cpp" line="162"/>
+        <source>Failed to fork: %1</source>
+        <translation>Αποτυχία δικράνωσης του: %1</translation>
+    </message>
+    <message>
+        <location filename="../../sudo.cpp" line="205"/>
+        <source>%1: Failed to exec &apos;%2&apos;: %3
+</source>
+        <translation>%1: Αποτυχία εκτέλεσης του «%2»: «%3»
+</translation>
+    </message>
+    <message>
+        <location filename="../../sudo.cpp" line="234"/>
+        <source>Failed to set non-block: %1</source>
+        <translation>Αποτυχία καθορισμού ως χωρίς φραγή: %1</translation>
+    </message>
+    <message>
+        <location filename="../../sudo.cpp" line="242"/>
+        <source>Failed to fdopen: %1</source>
+        <translation>Αποτυχία εκτέλεσης fdopen για: %1</translation>
+    </message>
+    <message>
+        <location filename="../../sudo.cpp" line="275"/>
         <source>Child &apos;%1&apos; process failed!
 %2</source>
         <translation>Η θυγατρική διεργασία «%1» απέτυχε!

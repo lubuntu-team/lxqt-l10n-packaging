@@ -6,10 +6,10 @@
     <message>
         <location filename="../../../showdesktop.cpp" line="48"/>
         <source>Show desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukázat pracovní plochu</translation>
     </message>
     <message>
-        <location filename="../../../showdesktop.cpp" line="69"/>
+        <location filename="../../../showdesktop.cpp" line="70"/>
         <source>Show Desktop: Global shortcut &apos;%1&apos; cannot be registered</source>
         <translation>Ukázat plochu: Celkovou zkratku &apos;%1&apos; nelze zapsat</translation>
     </message>

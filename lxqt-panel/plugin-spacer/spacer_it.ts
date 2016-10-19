@@ -18,5 +18,20 @@
         <source>Space type:</source>
         <translation>Tipo:</translation>
     </message>
+    <message>
+        <location filename="../../../spacerconfiguration.cpp" line="34"/>
+        <source>lined</source>
+        <translation>linea</translation>
+    </message>
+    <message>
+        <location filename="../../../spacerconfiguration.cpp" line="35"/>
+        <source>dotted</source>
+        <translation>puntini</translation>
+    </message>
+    <message>
+        <location filename="../../../spacerconfiguration.cpp" line="36"/>
+        <source>invisible</source>
+        <translation>invisibile</translation>
+    </message>
 </context>
 </TS>

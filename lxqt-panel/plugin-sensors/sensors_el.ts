@@ -5,7 +5,7 @@
     <name>LXQtSensorsConfiguration</name>
     <message>
         <source>LXQt Sensors Settings</source>
-        <translation type="vanished">Ρυθμίσεις αισθητήρων LXQt</translation>
+        <translation>Ρυθμίσεις αισθητήρων του LXQt</translation>
     </message>
     <message>
         <location filename="../../../lxqtsensorsconfiguration.ui" line="14"/>
@@ -68,17 +68,17 @@
         <translation>Χαρακτηριστικά κυκλώματος:</translation>
     </message>
     <message>
-        <location filename="../../../lxqtsensorsconfiguration.cpp" line="212"/>
+        <location filename="../../../lxqtsensorsconfiguration.cpp" line="195"/>
         <source>Enabled</source>
         <translation>Ενεργοποιημένο</translation>
     </message>
     <message>
-        <location filename="../../../lxqtsensorsconfiguration.cpp" line="212"/>
+        <location filename="../../../lxqtsensorsconfiguration.cpp" line="195"/>
         <source>Label</source>
         <translation>Ετικέτα</translation>
     </message>
     <message>
-        <location filename="../../../lxqtsensorsconfiguration.cpp" line="212"/>
+        <location filename="../../../lxqtsensorsconfiguration.cpp" line="195"/>
         <source>Color</source>
         <translation>Χρώμα</translation>
     </message>

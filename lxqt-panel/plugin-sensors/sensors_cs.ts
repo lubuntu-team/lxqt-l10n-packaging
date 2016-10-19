@@ -5,12 +5,12 @@
     <name>LXQtSensorsConfiguration</name>
     <message>
         <source>LXQt Sensors Settings</source>
-        <translation type="vanished">Nastavení čidel</translation>
+        <translation>Nastavení čidel</translation>
     </message>
     <message>
         <location filename="../../../lxqtsensorsconfiguration.ui" line="14"/>
         <source>Sensors Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavení čidel</translation>
     </message>
     <message>
         <location filename="../../../lxqtsensorsconfiguration.ui" line="30"/>
@@ -68,17 +68,17 @@
         <translation>Vlastnosti čipů:</translation>
     </message>
     <message>
-        <location filename="../../../lxqtsensorsconfiguration.cpp" line="212"/>
+        <location filename="../../../lxqtsensorsconfiguration.cpp" line="195"/>
         <source>Enabled</source>
         <translation>Povoleno</translation>
     </message>
     <message>
-        <location filename="../../../lxqtsensorsconfiguration.cpp" line="212"/>
+        <location filename="../../../lxqtsensorsconfiguration.cpp" line="195"/>
         <source>Label</source>
         <translation>Štítek</translation>
     </message>
     <message>
-        <location filename="../../../lxqtsensorsconfiguration.cpp" line="212"/>
+        <location filename="../../../lxqtsensorsconfiguration.cpp" line="195"/>
         <source>Color</source>
         <translation>Barva</translation>
     </message>

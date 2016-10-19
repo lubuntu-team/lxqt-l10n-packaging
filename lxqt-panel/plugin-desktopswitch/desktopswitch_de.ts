@@ -4,7 +4,7 @@
 <context>
     <name>DesktopSwitch</name>
     <message>
-        <location filename="../../../desktopswitch.cpp" line="85"/>
+        <location filename="../../../desktopswitch.cpp" line="84"/>
         <source>Switch to desktop %1</source>
         <translation>Zu Arbeitsfläche %1 wechseln</translation>
     </message>
@@ -24,8 +24,8 @@
     </message>
     <message>
         <location filename="../../../desktopswitchconfiguration.ui" line="20"/>
-        <source>Rows</source>
-        <translation>Zeilen</translation>
+        <source>Appearance</source>
+        <translation>Erscheinungsbild</translation>
     </message>
     <message>
         <location filename="../../../desktopswitchconfiguration.ui" line="39"/>

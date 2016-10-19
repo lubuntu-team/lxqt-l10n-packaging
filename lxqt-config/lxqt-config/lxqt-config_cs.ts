@@ -4,9 +4,9 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../mainwindow.ui" line="14"/>
+        <location filename="../../../mainwindow.ui" line="14"/>
         <source>Configuration Center</source>
-        <translation>Nastavení</translation>
+        <translation>Nastavovací středisko</translation>
     </message>
 </context>
 </TS>
