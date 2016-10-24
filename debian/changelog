@@ -1,3 +1,10 @@
+lxqt-l10n (0.11.0-19-g717bd7e-5) unstable; urgency=medium
+
+  * Really close 841721 ((Closes: #841721)
+  * Follow the multiarch hinter and mark the l10n-packages foreign
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 24 Oct 2016 18:18:04 +0200
+
 lxqt-l10n (0.11.0-19-g717bd7e-4) unstable; urgency=medium
 
   * Re-Added merged changelog entries
