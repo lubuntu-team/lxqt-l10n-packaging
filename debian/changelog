@@ -1,3 +1,10 @@
+lxqt-l10n (0.11.0-19-g717bd7e-6) UNRELEASED; urgency=medium
+
+  * Removed some superfluous whitespaces in lines 35, 37, 41, 48,
+    55, 65, 76 - solve the "unrecognised line" syntax warnings
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 26 Oct 2016 03:07:03 +0200
+
 lxqt-l10n (0.11.0-19-g717bd7e-5) unstable; urgency=medium
 
   * Really close 841721 ((Closes: #841721)
@@ -32,27 +39,27 @@ lxqt-l10n (0.11.0-19-g717bd7e-3) unstable; urgency=medium
 
  -- Alf Gaida <agaida@siduction.org>  Wed, 19 Oct 2016 02:44:43 +0200
 
- lxqt-l10n (0.11.0-19-g717bd7e-2) experimental; urgency=medium
+lxqt-l10n (0.11.0-19-g717bd7e-2) experimental; urgency=medium
 
-   * Fixed package names and versions in Breaks and Replaces (Closes: #840679)
+  * Fixed package names and versions in Breaks and Replaces (Closes: #840679)
 
-  -- Alf Gaida <agaida@siduction.org>  Thu, 13 Oct 2016 21:54:50 +0200
+ -- Alf Gaida <agaida@siduction.org>  Thu, 13 Oct 2016 21:54:50 +0200
 
- lxqt-l10n (0.11.0-19-g717bd7e-1) experimental; urgency=medium
+lxqt-l10n (0.11.0-19-g717bd7e-1) experimental; urgency=medium
 
    * Cherry picking upstream version 0.11.0-19-g717bd7e.
    * Fixes pavucontrol-qt-l10n build
 
   -- Alf Gaida <agaida@siduction.org>  Sun, 09 Oct 2016 21:40:41 +0200
 
- lxqt-l10n (0.11.0-1) experimental; urgency=medium
+lxqt-l10n (0.11.0-1) experimental; urgency=medium
 
    * Cherry-picking upstream version 0.11.0.
    * Added pavucontrol-qt-l10n
 
   -- Alf Gaida <agaida@siduction.org>  Sun, 09 Oct 2016 21:23:00 +0200
 
- lxqt-l10n (0.10.95~20-g4a053f4-2) experimental; urgency=medium
+lxqt-l10n (0.10.95~20-g4a053f4-2) experimental; urgency=medium
 
    * Added missed build dependencies:
      - libkf5windowsystem-dev
@@ -62,7 +69,7 @@ lxqt-l10n (0.11.0-19-g717bd7e-3) unstable; urgency=medium
 
   -- Alf Gaida <agaida@siduction.org>  Mon, 18 Jul 2016 00:00:36 +0200
 
- lxqt-l10n (0.10.95~20-g4a053f4-1) experimental; urgency=medium
+lxqt-l10n (0.10.95~20-g4a053f4-1) experimental; urgency=medium
 
    * Cherry-picking upstream version 0.10.95~20-g4a053f4.
    * Fixed copyright Format field
@@ -73,7 +80,7 @@ lxqt-l10n (0.11.0-19-g717bd7e-3) unstable; urgency=medium
 
   -- Alf Gaida <agaida@siduction.org>  Sun, 17 Jul 2016 15:53:46 +0200
 
- lxqt-l10n (0.10.9-1) experimental; urgency=medium
+lxqt-l10n (0.10.9-1) experimental; urgency=medium
 
   * Initial release. (Closes: #824225)
 
