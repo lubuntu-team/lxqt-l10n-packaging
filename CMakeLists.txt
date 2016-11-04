@@ -2,9 +2,13 @@ cmake_minimum_required(VERSION 3.0.2 FATAL_ERROR)
 
 project(translations)
 
-find_package(lxqt REQUIRED)
-include(LXQtTranslateTs)
+set(LXQTBT_MINIMUM_VERSION "0.1.0")
+
+find_package(Qt5LinguistTools REQUIRED)
+find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 include(GNUInstallDirs)
+include(LXQtTranslateTs)
+include(LXQtConfigVars)
 
 option(WITH_COMPTON_CONF "Build compton-conf translations" ON)
 option(WITH_LIBFM_QT "Build libfm-qt translations" ON)
@@ -26,6 +30,20 @@ option(WITH_OBCONF_QT "Build obconf-qt translations" ON)
 option(WITH_PAVUCONTROL_QT "Build pavucontrol-qt translations" ON)
 option(WITH_PCMANFM_QT "Build pcmanfm-qt translations" ON)
 option(WITH_QTERMINAL "Build qterminal translations" ON)
+
+if (BUILD_TESTING)
+    enable_testing()
+else ()
+    message(STATUS "")
+    message(STATUS "For building tests use -DBUILD_TESTING=ON option.")
+    message(STATUS "")
+endif()
+
+get_filename_component(CHECK_TS "check_ts.sh" ABSOLUTE)
+function(check_ts_files _ts_dir _ts_template)
+    get_filename_component(_ts_abs_dir "${_ts_dir}" ABSOLUTE)
+    add_test("${_ts_abs_dir}" "${CHECK_TS}" "${_ts_abs_dir}" "${CMAKE_CURRENT_BINARY_DIR}" "${_ts_template}")
+endfunction()
 
 macro(add_component VAR_OPTION VAR_SUBDIR)
     if (${VAR_OPTION})
@@ -53,6 +71,7 @@ macro(build_component VAR_TRANS_DIR VAR_INSTALL_DIR)
     )
 
     add_custom_target("${PROJECT_NAME}_ts" ALL DEPENDS ${QM_FILES})
+    check_ts_files("${VAR_TRANS_DIR}" "${PROJECT_NAME}")
 endmacro()
 
 macro(build_sub_component VAR_OPTION VAR_SUBDIR VAR_TEMPLATE)
@@ -66,6 +85,7 @@ macro(build_sub_component VAR_OPTION VAR_SUBDIR VAR_TEMPLATE)
             COMPONENT "${PROJECT_NAME}"
         )
         add_custom_target("${PROJECT_NAME}_${VAR_SUBDIR}_ts" ALL DEPENDS ${QM_FILES})
+        check_ts_files("${VAR_SUBDIR}" "${VAR_TEMPLATE}")
     endif ()
 endmacro()
 
