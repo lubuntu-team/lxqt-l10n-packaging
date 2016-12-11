@@ -1,3 +1,9 @@
+lxqt-l10n (0.11.1-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 0.11.1.
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 12 Dec 2016 00:34:30 +0100
+
 lxqt-l10n (0.11.0-86-g6d2de75-1) unstable; urgency=medium
 
   * Cherry-picking upstream version 0.11.0-86-g6d2de75.
