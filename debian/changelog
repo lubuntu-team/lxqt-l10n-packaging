@@ -1,3 +1,17 @@
+lxqt-l10n (0.11.2-4) UNRELEASED; urgency=medium
+
+  * 
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 27 Sep 2017 17:35:59 +0200
+
+lxqt-l10n (0.11.2-3) unstable; urgency=medium
+
+  * Added Section: localization to the language packages
+  * Bumped Standards to 4.1.0, no changes needed
+  * Added override_dh_missing
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 27 Sep 2017 17:32:40 +0200
+
 lxqt-l10n (0.11.2-2) unstable; urgency=medium
 
   * Added Recommends: qttranslations5-l10n, translated menus work better with
