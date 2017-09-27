@@ -60,8 +60,8 @@
     </message>
     <message>
         <location filename="../../maindialog.ui" line="113"/>
-        <source>Enabled client-side shadows on windows</source>
-        <translation>Aktiverede klient-side-skygger på vinduer</translation>
+        <source>Enable client-side shadows on windows</source>
+        <translation>Aktiver klient-side-skygger på vinduer</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>

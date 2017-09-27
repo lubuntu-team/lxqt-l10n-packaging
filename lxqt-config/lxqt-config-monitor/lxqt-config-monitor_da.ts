@@ -4,11 +4,6 @@
 <context>
     <name>FastMenu</name>
     <message>
-        <location filename="../../../fastmenu.ui" line="14"/>
-        <source>Form</source>
-        <translation>Formular</translation>
-    </message>
-    <message>
         <location filename="../../../fastmenu.ui" line="20"/>
         <source>Fast options</source>
         <translation>Hurtige valgmuligheder</translation>
@@ -106,11 +101,6 @@
 </context>
 <context>
     <name>MonitorPictureDialog</name>
-    <message>
-        <location filename="../../../monitorpicture.ui" line="14"/>
-        <source>Dialog</source>
-        <translation>Dialog</translation>
-    </message>
     <message>
         <location filename="../../../monitorpicture.ui" line="27"/>
         <source>Keep monitors attached</source>
@@ -250,27 +240,27 @@
 </translation>
     </message>
     <message>
-        <location filename="../../../monitorwidget.cpp" line="159"/>
+        <location filename="../../../monitorwidget.cpp" line="161"/>
         <source>None</source>
         <translation>Ingen</translation>
     </message>
     <message>
-        <location filename="../../../monitorwidget.cpp" line="160"/>
+        <location filename="../../../monitorwidget.cpp" line="162"/>
         <source>Left</source>
         <translation>Venstre</translation>
     </message>
     <message>
-        <location filename="../../../monitorwidget.cpp" line="161"/>
+        <location filename="../../../monitorwidget.cpp" line="163"/>
         <source>Right</source>
         <translation>Højre</translation>
     </message>
     <message>
-        <location filename="../../../monitorwidget.cpp" line="162"/>
+        <location filename="../../../monitorwidget.cpp" line="164"/>
         <source>Inverted</source>
         <translation>Omvendt</translation>
     </message>
     <message>
-        <location filename="../../../monitorwidget.cpp" line="252"/>
+        <location filename="../../../monitorwidget.cpp" line="254"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
@@ -295,10 +285,13 @@
         <source>Are the current settings OK for you?</source>
         <translation>Er de aktuelle indstillinger OK for dig?</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../../../timeoutdialog.cpp" line="62"/>
-        <source>%1 second(s) remaining</source>
-        <translation>%1 sekund(er) tilbage</translation>
+        <source>%n second(s) remaining</source>
+        <translation>
+            <numerusform>%1 sekund tilbage</numerusform>
+            <numerusform>%1 sekunder tilbage</numerusform>
+        </translation>
     </message>
 </context>
 </TS>

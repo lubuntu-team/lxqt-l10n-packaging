@@ -54,7 +54,7 @@
     <message>
         <location filename="../../../autostartmodel.cpp" line="213"/>
         <source>Overrides: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Geçersiz kılınan: %1</translation>
     </message>
 </context>
 <context>
@@ -118,6 +118,11 @@
         <translation>Oturumu kapatırken sor</translation>
     </message>
     <message>
+        <location filename="../../../basicsettings.ui" line="124"/>
+        <source>Lock screen before suspending/hibernating</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../../basicsettings.ui" line="23"/>
         <source>Basic Settings</source>
         <translation>Temel Ayarlar</translation>
@@ -133,7 +138,7 @@
         <translation>Dur</translation>
     </message>
     <message>
-        <location filename="../../../basicsettings.cpp" line="137"/>
+        <location filename="../../../basicsettings.cpp" line="146"/>
         <source>Select a window manager</source>
         <translation>Bir pencere yöneticisi seçin</translation>
     </message>
