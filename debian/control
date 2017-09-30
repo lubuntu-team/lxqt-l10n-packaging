@@ -5,7 +5,7 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
 Section: utils
 Priority: optional
 Build-Depends: debhelper (>= 10),
-               lxqt-build-tools (>= 0.3.1)
+               lxqt-build-tools (>= 0.4.0)
 Standards-Version: 4.1.0
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-l10n.git/?h=debian/sid
 Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-l10n.git -b debian/sid
@@ -229,3 +229,15 @@ Breaks: qterminal (<< 0.6.1)
 Replaces: qterminal (<< 0.6.1)
 Description: Language package for qterminal
  This package contains the l10n files needed by the qterminal.
+
+Package: qtermwidget-l10n
+Architecture: all
+Multi-Arch: foreign
+Section: localization
+Depends: ${misc:Depends}
+Recommends: qttranslations5-l10n
+#Breaks: qtwidget (<< 0.6.1)
+#Replaces: qterminal (<< 0.6.1)
+Description: Language package for qtermwidget
+ This package contains the l10n files needed by the qtermwidget.
+

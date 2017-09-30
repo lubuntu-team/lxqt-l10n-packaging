@@ -9,4 +9,4 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 	dh ${@} --buildsystem cmake
 
 override_dh_missing:
-	dh_missing -- --fail-missing
+	dh_missing --fail-missing

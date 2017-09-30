@@ -1,8 +1,11 @@
-lxqt-l10n (0.11.2-4) UNRELEASED; urgency=medium
+lxqt-l10n (0.11.99-1) experimental; urgency=medium
 
-  * 
+  * Cherry-picking new upstream pre-release 0.11.99.
+  * Fixed a typo in override_dh_missing
+  * Added language package qtermwidget-l10n
+  * Switched to experimental
 
- -- Alf Gaida <agaida@siduction.org>  Wed, 27 Sep 2017 17:35:59 +0200
+ -- Alf Gaida <agaida@siduction.org>  Wed, 27 Sep 2017 23:33:02 +0200
 
 lxqt-l10n (0.11.2-3) unstable; urgency=medium
 

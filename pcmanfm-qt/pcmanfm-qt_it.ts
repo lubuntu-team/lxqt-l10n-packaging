@@ -75,7 +75,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <message>
         <location filename="../../about.ui" line="25"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;PCManFM-Qt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../about.ui" line="100"/>
@@ -137,42 +137,42 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <message>
         <location filename="../../connect.ui" line="14"/>
         <source>Connect to remote server</source>
-        <translation type="unfinished"></translation>
+        <translation>Connetti a server remoto</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="23"/>
         <source>Anonymous &amp;login</source>
-        <translation type="unfinished"></translation>
+        <translation>Login &amp;anonimo</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="36"/>
         <source>Login as &amp;user:</source>
-        <translation type="unfinished"></translation>
+        <translation>Login &amp;utente:</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="65"/>
         <source>Specify remote folder to connect</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Specifica cartella remota per la connessione</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="72"/>
         <source>Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipo:</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="79"/>
         <source>Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>Porta:</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="86"/>
         <source>Path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Percorso:</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="96"/>
         <source>Host:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -324,17 +324,72 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
         <translation>Blocca</translation>
     </message>
     <message>
+        <location filename="../../desktop-preferences.ui" line="315"/>
+        <source>Slide Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../desktop-preferences.ui" line="321"/>
+        <source>Enable Slide Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="333"/>
+        <source>Wallpaper image folder:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="340"/>
+        <source>Browse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="347"/>
+        <source> hour(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="357"/>
+        <source>and</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="370"/>
+        <source>Intervals less than 5min will be ignored</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="373"/>
+        <source>Interval:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="380"/>
+        <source> minute(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="406"/>
+        <source>Wallpaper folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="429"/>
+        <source>Randomize the slide show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="459"/>
         <source>Window Manager</source>
         <translation>Gestore delle finestre</translation>
     </message>
     <message>
-        <location filename="../../desktop-preferences.ui" line="327"/>
+        <location filename="../../desktop-preferences.ui" line="465"/>
         <source>Show menus provided by window managers when desktop is clicked</source>
         <translation>Mostra i menu forniti dal gestore delle finestre quando fai clic sul desktop</translation>
     </message>
     <message>
-        <location filename="../../desktop-preferences.ui" line="315"/>
+        <location filename="../../desktop-preferences.ui" line="453"/>
         <source>Advanced</source>
         <translation>Avanzate</translation>
     </message>
@@ -379,12 +434,12 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
     <message>
         <location filename="../../main-win.ui" line="178"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Barra degli strumenti</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="185"/>
         <source>Path &amp;Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Barra di &amp;indirizzo</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="305"/>
@@ -574,7 +629,7 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
     <message>
         <location filename="../../main-win.ui" line="781"/>
         <source>&amp;Menu bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Barra del &amp;menu</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="807"/>
@@ -584,17 +639,17 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
     <message>
         <location filename="../../main-win.ui" line="812"/>
         <source>Connect to &amp;Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Connetti a &amp;server</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="820"/>
         <source>&amp;Location</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Scrivibile</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="828"/>
         <source>&amp;Path Buttons</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pulsanti</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="773"/>
@@ -872,100 +927,100 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
 <context>
     <name>PCManFM::Application</name>
     <message>
-        <location filename="../../application.cpp" line="169"/>
+        <location filename="../../application.cpp" line="170"/>
         <source>Name of configuration profile</source>
         <translation>Nome del profilo di configurazione</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="169"/>
+        <location filename="../../application.cpp" line="170"/>
         <source>PROFILE</source>
         <translation>PROFILO</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="172"/>
+        <location filename="../../application.cpp" line="173"/>
         <source>Run PCManFM as a daemon</source>
         <translation>Esegui PCManFM come demone</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="175"/>
+        <location filename="../../application.cpp" line="176"/>
         <source>Quit PCManFM</source>
         <translation>Esci da PCManFM</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="178"/>
+        <location filename="../../application.cpp" line="179"/>
         <source>Launch desktop manager</source>
         <translation>Lancia il gestore della scrivania</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="181"/>
+        <location filename="../../application.cpp" line="182"/>
         <source>Turn off desktop manager if it&apos;s running</source>
         <translation>Spegni il gestore della scrivania se è in esecuzione</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="184"/>
+        <location filename="../../application.cpp" line="185"/>
         <source>Open desktop preference dialog on the page with the specified name</source>
         <translation>Apri le preferenze della scrivania alla pagina con il nome specificato</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="184"/>
-        <location filename="../../application.cpp" line="199"/>
+        <location filename="../../application.cpp" line="185"/>
+        <location filename="../../application.cpp" line="200"/>
         <source>NAME</source>
         <translation>NOME</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="193"/>
+        <location filename="../../application.cpp" line="194"/>
         <source>Set desktop wallpaper from image FILE</source>
         <translation>Imposta lo sfondo della scrivania con l&apos;immagine dal FILE</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="193"/>
+        <location filename="../../application.cpp" line="194"/>
         <source>FILE</source>
         <translation>FILE</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="196"/>
+        <location filename="../../application.cpp" line="197"/>
         <source>MODE</source>
         <translation>MODO</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="199"/>
+        <location filename="../../application.cpp" line="200"/>
         <source>Open Preferences dialog on the page with the specified name</source>
         <translatorcomment>where is that?</translatorcomment>
         <translation>Apri le preferenze alla pagina con il nome specificato</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="187"/>
+        <location filename="../../application.cpp" line="188"/>
         <source>Open new window</source>
         <translation>Apri una nuova finestra</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="190"/>
+        <location filename="../../application.cpp" line="191"/>
         <source>Open Find Files utility</source>
         <translation>Apri l&apos;utilità di ricerca file</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="196"/>
+        <location filename="../../application.cpp" line="197"/>
         <source>Set mode of desktop wallpaper. MODE=(%1)</source>
         <translation>Scegli la modalità dello sfondo. Modalita=(%1)</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="202"/>
+        <location filename="../../application.cpp" line="203"/>
         <source>[FILE1, FILE2,...]</source>
         <translation>[FILE1, FILE2, ...]</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="202"/>
+        <location filename="../../application.cpp" line="203"/>
         <source>Files or directories to open</source>
         <translation>File o cartelle da aprire</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="518"/>
-        <location filename="../../application.cpp" line="525"/>
+        <location filename="../../application.cpp" line="524"/>
+        <location filename="../../application.cpp" line="529"/>
         <source>Error</source>
         <translation>Errore</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="525"/>
+        <location filename="../../application.cpp" line="529"/>
         <source>Terminal emulator is not set.</source>
         <translation>L&apos;emulatore di terminale non è impostato.</translation>
     </message>
@@ -973,12 +1028,12 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
 <context>
     <name>PCManFM::AutoRunDialog</name>
     <message>
-        <location filename="../../autorundialog.cpp" line="43"/>
+        <location filename="../../autorundialog.cpp" line="45"/>
         <source>Open in file manager</source>
         <translation>Apri nel gestore file</translation>
     </message>
     <message>
-        <location filename="../../autorundialog.cpp" line="132"/>
+        <location filename="../../autorundialog.cpp" line="136"/>
         <source>Removable Disk</source>
         <translation>Disco rimovibile</translation>
     </message>
@@ -988,32 +1043,32 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
     <message>
         <location filename="../../connectserverdialog.cpp" line="9"/>
         <source>SSH</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../connectserverdialog.cpp" line="10"/>
         <source>FTP</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../connectserverdialog.cpp" line="11"/>
         <source>WebDav</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../connectserverdialog.cpp" line="12"/>
         <source>Secure WebDav</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../connectserverdialog.cpp" line="13"/>
         <source>HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../../connectserverdialog.cpp" line="14"/>
         <source>HTTPS</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1046,10 +1101,10 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
     <message>
         <location filename="../../desktoppreferencesdialog.cpp" line="57"/>
         <source>Zoom the image to fill the entire screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingrandisci l&apos;immagine per riempire lo schermo</translation>
     </message>
     <message>
-        <location filename="../../desktoppreferencesdialog.cpp" line="186"/>
+        <location filename="../../desktoppreferencesdialog.cpp" line="204"/>
         <source>Image Files</source>
         <translation>File immagine</translation>
     </message>
@@ -1057,12 +1112,12 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
 <context>
     <name>PCManFM::DesktopWindow</name>
     <message>
-        <location filename="../../desktopwindow.cpp" line="367"/>
+        <location filename="../../desktopwindow.cpp" line="525"/>
         <source>Stic&amp;k to Current Position</source>
         <translation>Blo&amp;cca alla posizione attuale</translation>
     </message>
     <message>
-        <location filename="../../desktopwindow.cpp" line="389"/>
+        <location filename="../../desktopwindow.cpp" line="547"/>
         <source>Desktop Preferences</source>
         <translation>Preferenze della scrivania</translation>
     </message>
@@ -1070,7 +1125,7 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
 <context>
     <name>PCManFM::MainWindow</name>
     <message>
-        <location filename="../../mainwindow.cpp" line="262"/>
+        <location filename="../../mainwindow.cpp" line="264"/>
         <source>Clear text (Ctrl+K)</source>
         <translation>Cancella il testo (Ctrl+K)</translation>
     </message>
@@ -1085,28 +1140,28 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
         <translation>Questo nasconderà la barra del menu, usa Ctrl+M per visualizzarla nuovamente.</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="626"/>
+        <location filename="../../mainwindow.cpp" line="628"/>
         <source>Version: %1</source>
         <translation>Versione:%1</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1172"/>
+        <location filename="../../mainwindow.cpp" line="1210"/>
         <source>&amp;Move to Trash</source>
         <translation>Cestin&amp;a</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1172"/>
+        <location filename="../../mainwindow.cpp" line="1210"/>
         <source>&amp;Delete</source>
         <translation>&amp;Elimina</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1241"/>
-        <location filename="../../mainwindow.cpp" line="1252"/>
+        <location filename="../../mainwindow.cpp" line="1279"/>
+        <location filename="../../mainwindow.cpp" line="1287"/>
         <source>Error</source>
         <translation>Errore</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1252"/>
+        <location filename="../../mainwindow.cpp" line="1287"/>
         <source>Switch user command is not set.</source>
         <translation>Il comando per cambiare utente non è impostato.</translation>
     </message>
@@ -1114,22 +1169,22 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
 <context>
     <name>PCManFM::PreferencesDialog</name>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="189"/>
+        <location filename="../../preferencesdialog.cpp" line="195"/>
         <source>Icon View</source>
         <translation>Vista icone</translation>
     </message>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="190"/>
+        <location filename="../../preferencesdialog.cpp" line="196"/>
         <source>Compact View</source>
         <translation>Vista compatta</translation>
     </message>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="191"/>
+        <location filename="../../preferencesdialog.cpp" line="197"/>
         <source>Thumbnail View</source>
         <translation>Vista miniature</translation>
     </message>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="192"/>
+        <location filename="../../preferencesdialog.cpp" line="198"/>
         <source>Detailed List View</source>
         <translation>Vista elenco dettagliato</translation>
     </message>
@@ -1137,17 +1192,17 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
 <context>
     <name>PCManFM::TabPage</name>
     <message>
-        <location filename="../../tabpage.cpp" line="263"/>
+        <location filename="../../tabpage.cpp" line="279"/>
         <source>Error</source>
         <translation>Errore</translation>
     </message>
     <message>
-        <location filename="../../tabpage.cpp" line="276"/>
+        <location filename="../../tabpage.cpp" line="292"/>
         <source>Free space: %1 (Total: %2)</source>
         <translation>Spazio libero: %1 (totale: %2)</translation>
     </message>
     <message numerus="yes">
-        <location filename="../../tabpage.cpp" line="291"/>
+        <location filename="../../tabpage.cpp" line="309"/>
         <source>%n item(s)</source>
         <translation>
             <numerusform>%n elemento</numerusform>
@@ -1155,7 +1210,7 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../../tabpage.cpp" line="293"/>
+        <location filename="../../tabpage.cpp" line="311"/>
         <source> (%n hidden)</source>
         <translation>
             <numerusform> (%n nascosto)</numerusform>
@@ -1163,7 +1218,7 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../../tabpage.cpp" line="451"/>
+        <location filename="../../tabpage.cpp" line="485"/>
         <source>%n item(s) selected</source>
         <translation>
             <numerusform>%n elemento selezionato</numerusform>
@@ -1184,7 +1239,7 @@ E&apos; predisposto anche uno spazio per tre righe di testo.</translation>
         <translation>Apri una nuova &amp;finestra</translation>
     </message>
     <message>
-        <location filename="../../view.cpp" line="115"/>
+        <location filename="../../view.cpp" line="114"/>
         <source>Open in Termina&amp;l</source>
         <translation>Apri nel termina&amp;le</translation>
     </message>

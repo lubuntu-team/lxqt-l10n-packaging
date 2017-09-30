@@ -282,17 +282,72 @@ A space is also reserved for 3 lines of text.</source>
         <translation>鎖定</translation>
     </message>
     <message>
+        <location filename="../../desktop-preferences.ui" line="315"/>
+        <source>Slide Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../desktop-preferences.ui" line="321"/>
+        <source>Enable Slide Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="333"/>
+        <source>Wallpaper image folder:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="340"/>
+        <source>Browse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="347"/>
+        <source> hour(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="357"/>
+        <source>and</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="370"/>
+        <source>Intervals less than 5min will be ignored</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="373"/>
+        <source>Interval:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="380"/>
+        <source> minute(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="406"/>
+        <source>Wallpaper folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="429"/>
+        <source>Randomize the slide show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="459"/>
         <source>Window Manager</source>
         <translation>視窗管理員</translation>
     </message>
     <message>
-        <location filename="../../desktop-preferences.ui" line="327"/>
+        <location filename="../../desktop-preferences.ui" line="465"/>
         <source>Show menus provided by window managers when desktop is clicked</source>
         <translation>按下桌面時顯示視窗管理員提供的選單</translation>
     </message>
     <message>
-        <location filename="../../desktop-preferences.ui" line="315"/>
+        <location filename="../../desktop-preferences.ui" line="453"/>
         <source>Advanced</source>
         <translation>進階</translation>
     </message>
@@ -930,99 +985,99 @@ A space is also reserved for 3 lines of text.</source>
 <context>
     <name>PCManFM::Application</name>
     <message>
-        <location filename="../../application.cpp" line="169"/>
+        <location filename="../../application.cpp" line="170"/>
         <source>Name of configuration profile</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="169"/>
+        <location filename="../../application.cpp" line="170"/>
         <source>PROFILE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="172"/>
+        <location filename="../../application.cpp" line="173"/>
         <source>Run PCManFM as a daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="175"/>
+        <location filename="../../application.cpp" line="176"/>
         <source>Quit PCManFM</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="178"/>
+        <location filename="../../application.cpp" line="179"/>
         <source>Launch desktop manager</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="181"/>
+        <location filename="../../application.cpp" line="182"/>
         <source>Turn off desktop manager if it&apos;s running</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="184"/>
+        <location filename="../../application.cpp" line="185"/>
         <source>Open desktop preference dialog on the page with the specified name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="184"/>
-        <location filename="../../application.cpp" line="199"/>
+        <location filename="../../application.cpp" line="185"/>
+        <location filename="../../application.cpp" line="200"/>
         <source>NAME</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="187"/>
+        <location filename="../../application.cpp" line="188"/>
         <source>Open new window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="190"/>
+        <location filename="../../application.cpp" line="191"/>
         <source>Open Find Files utility</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="193"/>
+        <location filename="../../application.cpp" line="194"/>
         <source>Set desktop wallpaper from image FILE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="193"/>
+        <location filename="../../application.cpp" line="194"/>
         <source>FILE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="196"/>
+        <location filename="../../application.cpp" line="197"/>
         <source>MODE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="196"/>
+        <location filename="../../application.cpp" line="197"/>
         <source>Set mode of desktop wallpaper. MODE=(%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="199"/>
+        <location filename="../../application.cpp" line="200"/>
         <source>Open Preferences dialog on the page with the specified name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="202"/>
+        <location filename="../../application.cpp" line="203"/>
         <source>Files or directories to open</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="202"/>
+        <location filename="../../application.cpp" line="203"/>
         <source>[FILE1, FILE2,...]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="518"/>
-        <location filename="../../application.cpp" line="525"/>
+        <location filename="../../application.cpp" line="524"/>
+        <location filename="../../application.cpp" line="529"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="525"/>
+        <location filename="../../application.cpp" line="529"/>
         <source>Terminal emulator is not set.</source>
         <translation>終端機模擬器尚未設定</translation>
     </message>
@@ -1030,12 +1085,12 @@ A space is also reserved for 3 lines of text.</source>
 <context>
     <name>PCManFM::AutoRunDialog</name>
     <message>
-        <location filename="../../autorundialog.cpp" line="43"/>
+        <location filename="../../autorundialog.cpp" line="45"/>
         <source>Open in file manager</source>
         <translation>在檔案管理程式內開啟</translation>
     </message>
     <message>
-        <location filename="../../autorundialog.cpp" line="132"/>
+        <location filename="../../autorundialog.cpp" line="136"/>
         <source>Removable Disk</source>
         <translation>可移除式磁碟</translation>
     </message>
@@ -1106,7 +1161,7 @@ A space is also reserved for 3 lines of text.</source>
         <translation>縮放影像填滿整個螢幕</translation>
     </message>
     <message>
-        <location filename="../../desktoppreferencesdialog.cpp" line="186"/>
+        <location filename="../../desktoppreferencesdialog.cpp" line="204"/>
         <source>Image Files</source>
         <translation>影像檔案</translation>
     </message>
@@ -1114,12 +1169,12 @@ A space is also reserved for 3 lines of text.</source>
 <context>
     <name>PCManFM::DesktopWindow</name>
     <message>
-        <location filename="../../desktopwindow.cpp" line="367"/>
+        <location filename="../../desktopwindow.cpp" line="525"/>
         <source>Stic&amp;k to Current Position</source>
         <translation>保持在目前位置(&amp;K)</translation>
     </message>
     <message>
-        <location filename="../../desktopwindow.cpp" line="389"/>
+        <location filename="../../desktopwindow.cpp" line="547"/>
         <source>Desktop Preferences</source>
         <translation>桌面偏好設定</translation>
     </message>
@@ -1127,7 +1182,7 @@ A space is also reserved for 3 lines of text.</source>
 <context>
     <name>PCManFM::MainWindow</name>
     <message>
-        <location filename="../../mainwindow.cpp" line="262"/>
+        <location filename="../../mainwindow.cpp" line="264"/>
         <source>Clear text (Ctrl+K)</source>
         <translation>清除文字(Ctrl+K)</translation>
     </message>
@@ -1142,28 +1197,28 @@ A space is also reserved for 3 lines of text.</source>
         <translation>選單列將完全被隱藏，使用 Ctrl+M 可再次顯示。</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="626"/>
+        <location filename="../../mainwindow.cpp" line="628"/>
         <source>Version: %1</source>
         <translation>版本: %1</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1172"/>
+        <location filename="../../mainwindow.cpp" line="1210"/>
         <source>&amp;Move to Trash</source>
         <translation>移動到垃圾桶(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1172"/>
+        <location filename="../../mainwindow.cpp" line="1210"/>
         <source>&amp;Delete</source>
         <translation>刪除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1241"/>
-        <location filename="../../mainwindow.cpp" line="1252"/>
+        <location filename="../../mainwindow.cpp" line="1279"/>
+        <location filename="../../mainwindow.cpp" line="1287"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1252"/>
+        <location filename="../../mainwindow.cpp" line="1287"/>
         <source>Switch user command is not set.</source>
         <translation>切換使用者指令尚未設定</translation>
     </message>
@@ -1175,7 +1230,7 @@ A space is also reserved for 3 lines of text.</source>
 <context>
     <name>PCManFM::PreferencesDialog</name>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="189"/>
+        <location filename="../../preferencesdialog.cpp" line="195"/>
         <source>Icon View</source>
         <translation>圖示檢視</translation>
     </message>
@@ -1184,17 +1239,17 @@ A space is also reserved for 3 lines of text.</source>
         <translation type="vanished">簡易檢視</translation>
     </message>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="190"/>
+        <location filename="../../preferencesdialog.cpp" line="196"/>
         <source>Compact View</source>
         <translation>簡易檢視</translation>
     </message>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="191"/>
+        <location filename="../../preferencesdialog.cpp" line="197"/>
         <source>Thumbnail View</source>
         <translation>縮圖檢視</translation>
     </message>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="192"/>
+        <location filename="../../preferencesdialog.cpp" line="198"/>
         <source>Detailed List View</source>
         <translation>詳細清單檢視</translation>
     </message>
@@ -1202,31 +1257,31 @@ A space is also reserved for 3 lines of text.</source>
 <context>
     <name>PCManFM::TabPage</name>
     <message>
-        <location filename="../../tabpage.cpp" line="263"/>
+        <location filename="../../tabpage.cpp" line="279"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="../../tabpage.cpp" line="276"/>
+        <location filename="../../tabpage.cpp" line="292"/>
         <source>Free space: %1 (Total: %2)</source>
         <translation>可用空間 %1 (全部: %2)</translation>
     </message>
     <message numerus="yes">
-        <location filename="../../tabpage.cpp" line="291"/>
+        <location filename="../../tabpage.cpp" line="309"/>
         <source>%n item(s)</source>
         <translation>
             <numerusform>%n 個項目</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../../tabpage.cpp" line="293"/>
+        <location filename="../../tabpage.cpp" line="311"/>
         <source> (%n hidden)</source>
         <translation>
             <numerusform> (%n 個隱藏)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../../tabpage.cpp" line="451"/>
+        <location filename="../../tabpage.cpp" line="485"/>
         <source>%n item(s) selected</source>
         <translation>
             <numerusform>選取 %n 個項目</numerusform>
@@ -1250,7 +1305,7 @@ A space is also reserved for 3 lines of text.</source>
         <translation>在新視窗開啟 (&amp;D)</translation>
     </message>
     <message>
-        <location filename="../../view.cpp" line="115"/>
+        <location filename="../../view.cpp" line="114"/>
         <source>Open in Termina&amp;l</source>
         <translation>在終端機內開啟 (&amp;L)</translation>
     </message>

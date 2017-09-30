@@ -299,17 +299,72 @@ Et mellemrum er også reserverte for tre linjers tekst.</translation>
         <translation>Lås</translation>
     </message>
     <message>
+        <location filename="../../desktop-preferences.ui" line="315"/>
+        <source>Slide Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../desktop-preferences.ui" line="321"/>
+        <source>Enable Slide Show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="333"/>
+        <source>Wallpaper image folder:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="340"/>
+        <source>Browse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="347"/>
+        <source> hour(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="357"/>
+        <source>and</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="370"/>
+        <source>Intervals less than 5min will be ignored</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="373"/>
+        <source>Interval:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="380"/>
+        <source> minute(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="406"/>
+        <source>Wallpaper folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="429"/>
+        <source>Randomize the slide show</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="459"/>
         <source>Window Manager</source>
         <translation>Window Manager</translation>
     </message>
     <message>
-        <location filename="../../desktop-preferences.ui" line="327"/>
+        <location filename="../../desktop-preferences.ui" line="465"/>
         <source>Show menus provided by window managers when desktop is clicked</source>
         <translation>Vis menuer fra window managerne når der klikkes på skrivebordet</translation>
     </message>
     <message>
-        <location filename="../../desktop-preferences.ui" line="315"/>
+        <location filename="../../desktop-preferences.ui" line="453"/>
         <source>Advanced</source>
         <translation>Avanceret</translation>
     </message>
@@ -847,99 +902,99 @@ Et mellemrum er også reserverte for tre linjers tekst.</translation>
 <context>
     <name>PCManFM::Application</name>
     <message>
-        <location filename="../../application.cpp" line="169"/>
+        <location filename="../../application.cpp" line="170"/>
         <source>Name of configuration profile</source>
         <translation>Konfigurationsprofilnavn</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="169"/>
+        <location filename="../../application.cpp" line="170"/>
         <source>PROFILE</source>
         <translation>Profil</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="172"/>
+        <location filename="../../application.cpp" line="173"/>
         <source>Run PCManFM as a daemon</source>
         <translation>Kør PCManFM som daemon</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="175"/>
+        <location filename="../../application.cpp" line="176"/>
         <source>Quit PCManFM</source>
         <translation>Afslut PCManFM</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="178"/>
+        <location filename="../../application.cpp" line="179"/>
         <source>Launch desktop manager</source>
         <translation>Kør skrivebordshåndtering</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="181"/>
+        <location filename="../../application.cpp" line="182"/>
         <source>Turn off desktop manager if it&apos;s running</source>
         <translation>Slå skrivebordshåndtering fra, hvis den kører</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="184"/>
+        <location filename="../../application.cpp" line="185"/>
         <source>Open desktop preference dialog on the page with the specified name</source>
         <translation>Åbn skrivebordspræferencer på siden med det specifcerede navn</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="184"/>
-        <location filename="../../application.cpp" line="199"/>
+        <location filename="../../application.cpp" line="185"/>
+        <location filename="../../application.cpp" line="200"/>
         <source>NAME</source>
         <translation>Navn</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="187"/>
+        <location filename="../../application.cpp" line="188"/>
         <source>Open new window</source>
         <translation>Åbn nyt vindue</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="190"/>
+        <location filename="../../application.cpp" line="191"/>
         <source>Open Find Files utility</source>
         <translation>Åbn find filer værktøjet</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="193"/>
+        <location filename="../../application.cpp" line="194"/>
         <source>Set desktop wallpaper from image FILE</source>
         <translation>Sæt skrivebordstapet fra billedurl</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="193"/>
+        <location filename="../../application.cpp" line="194"/>
         <source>FILE</source>
         <translation>Fil</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="196"/>
+        <location filename="../../application.cpp" line="197"/>
         <source>MODE</source>
         <translation>tapetype</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="196"/>
+        <location filename="../../application.cpp" line="197"/>
         <source>Set mode of desktop wallpaper. MODE=(%1)</source>
         <translation>Sæt typen af tapet til typen=(%1)</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="199"/>
+        <location filename="../../application.cpp" line="200"/>
         <source>Open Preferences dialog on the page with the specified name</source>
         <translation>Åbn præferencer på siden med det specificerede navn</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="202"/>
+        <location filename="../../application.cpp" line="203"/>
         <source>Files or directories to open</source>
         <translation>Filer eller mapper at åbne</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="202"/>
+        <location filename="../../application.cpp" line="203"/>
         <source>[FILE1, FILE2,...]</source>
         <translation>[FIL1,FIL2,...]</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="518"/>
-        <location filename="../../application.cpp" line="525"/>
+        <location filename="../../application.cpp" line="524"/>
+        <location filename="../../application.cpp" line="529"/>
         <source>Error</source>
         <translation>Fejl</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="525"/>
+        <location filename="../../application.cpp" line="529"/>
         <source>Terminal emulator is not set.</source>
         <translation>Termnialemulator er ikke indstillet.</translation>
     </message>
@@ -947,12 +1002,12 @@ Et mellemrum er også reserverte for tre linjers tekst.</translation>
 <context>
     <name>PCManFM::AutoRunDialog</name>
     <message>
-        <location filename="../../autorundialog.cpp" line="43"/>
+        <location filename="../../autorundialog.cpp" line="45"/>
         <source>Open in file manager</source>
         <translation>Åbn i filhåndtering</translation>
     </message>
     <message>
-        <location filename="../../autorundialog.cpp" line="132"/>
+        <location filename="../../autorundialog.cpp" line="136"/>
         <source>Removable Disk</source>
         <translation>Flytbar disk</translation>
     </message>
@@ -1023,7 +1078,7 @@ Et mellemrum er også reserverte for tre linjers tekst.</translation>
         <translation>Zomm billedet så det fylder hele skærmen</translation>
     </message>
     <message>
-        <location filename="../../desktoppreferencesdialog.cpp" line="186"/>
+        <location filename="../../desktoppreferencesdialog.cpp" line="204"/>
         <source>Image Files</source>
         <translation>Billedfiler</translation>
     </message>
@@ -1031,12 +1086,12 @@ Et mellemrum er også reserverte for tre linjers tekst.</translation>
 <context>
     <name>PCManFM::DesktopWindow</name>
     <message>
-        <location filename="../../desktopwindow.cpp" line="367"/>
+        <location filename="../../desktopwindow.cpp" line="525"/>
         <source>Stic&amp;k to Current Position</source>
         <translation>K&amp;læb til nuværende position</translation>
     </message>
     <message>
-        <location filename="../../desktopwindow.cpp" line="389"/>
+        <location filename="../../desktopwindow.cpp" line="547"/>
         <source>Desktop Preferences</source>
         <translation>Skrivebordspræferencer</translation>
     </message>
@@ -1044,7 +1099,7 @@ Et mellemrum er også reserverte for tre linjers tekst.</translation>
 <context>
     <name>PCManFM::MainWindow</name>
     <message>
-        <location filename="../../mainwindow.cpp" line="262"/>
+        <location filename="../../mainwindow.cpp" line="264"/>
         <source>Clear text (Ctrl+K)</source>
         <translation>Ryd tekst (Ctrl+K)</translation>
     </message>
@@ -1059,28 +1114,28 @@ Et mellemrum er også reserverte for tre linjers tekst.</translation>
         <translation>Dette vil skjule menulinjen helt. Bruge Ctrl+M for at vise den igen.</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="626"/>
+        <location filename="../../mainwindow.cpp" line="628"/>
         <source>Version: %1</source>
         <translation>Version: %1</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1172"/>
+        <location filename="../../mainwindow.cpp" line="1210"/>
         <source>&amp;Move to Trash</source>
         <translation>Smid i &amp;papirkurv</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1172"/>
+        <location filename="../../mainwindow.cpp" line="1210"/>
         <source>&amp;Delete</source>
         <translation>&amp;Slet</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1241"/>
-        <location filename="../../mainwindow.cpp" line="1252"/>
+        <location filename="../../mainwindow.cpp" line="1279"/>
+        <location filename="../../mainwindow.cpp" line="1287"/>
         <source>Error</source>
         <translation>Fejl</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1252"/>
+        <location filename="../../mainwindow.cpp" line="1287"/>
         <source>Switch user command is not set.</source>
         <translation>Skiftbrugerkommando ikke indstillet.</translation>
     </message>
@@ -1088,22 +1143,22 @@ Et mellemrum er også reserverte for tre linjers tekst.</translation>
 <context>
     <name>PCManFM::PreferencesDialog</name>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="189"/>
+        <location filename="../../preferencesdialog.cpp" line="195"/>
         <source>Icon View</source>
         <translation>Ikonvisning</translation>
     </message>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="190"/>
+        <location filename="../../preferencesdialog.cpp" line="196"/>
         <source>Compact View</source>
         <translation>Kompakt visning</translation>
     </message>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="191"/>
+        <location filename="../../preferencesdialog.cpp" line="197"/>
         <source>Thumbnail View</source>
         <translation>Forhåndsvisninger</translation>
     </message>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="192"/>
+        <location filename="../../preferencesdialog.cpp" line="198"/>
         <source>Detailed List View</source>
         <translation>Detaljeret visning</translation>
     </message>
@@ -1111,17 +1166,17 @@ Et mellemrum er også reserverte for tre linjers tekst.</translation>
 <context>
     <name>PCManFM::TabPage</name>
     <message>
-        <location filename="../../tabpage.cpp" line="263"/>
+        <location filename="../../tabpage.cpp" line="279"/>
         <source>Error</source>
         <translation>Fejl</translation>
     </message>
     <message>
-        <location filename="../../tabpage.cpp" line="276"/>
+        <location filename="../../tabpage.cpp" line="292"/>
         <source>Free space: %1 (Total: %2)</source>
         <translation>Fri plads: %1 (Totalt: %2)</translation>
     </message>
     <message numerus="yes">
-        <location filename="../../tabpage.cpp" line="291"/>
+        <location filename="../../tabpage.cpp" line="309"/>
         <source>%n item(s)</source>
         <translation>
             <numerusform>%n objekt</numerusform>
@@ -1129,7 +1184,7 @@ Et mellemrum er også reserverte for tre linjers tekst.</translation>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../../tabpage.cpp" line="293"/>
+        <location filename="../../tabpage.cpp" line="311"/>
         <source> (%n hidden)</source>
         <translation>
             <numerusform>(%n skjult)</numerusform>
@@ -1137,7 +1192,7 @@ Et mellemrum er også reserverte for tre linjers tekst.</translation>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../../tabpage.cpp" line="451"/>
+        <location filename="../../tabpage.cpp" line="485"/>
         <source>%n item(s) selected</source>
         <translation>
             <numerusform>%n objekt valgt</numerusform>
@@ -1158,7 +1213,7 @@ Et mellemrum er også reserverte for tre linjers tekst.</translation>
         <translation>Åbn i nyt &amp;vindue</translation>
     </message>
     <message>
-        <location filename="../../view.cpp" line="115"/>
+        <location filename="../../view.cpp" line="114"/>
         <source>Open in Termina&amp;l</source>
         <translation>Åbn i &amp;terminal</translation>
     </message>

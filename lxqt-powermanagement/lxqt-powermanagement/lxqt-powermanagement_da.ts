@@ -197,76 +197,47 @@
         <source>Power low!</source>
         <translation>Strøm lavt!</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../../../batterywatcher.cpp" line="125"/>
-        <source>Suspending in %1 seconds</source>
-        <translation>Hviler om %1 sekunder</translation>
+        <source>Suspending in %n second(s)</source>
+        <translation>
+            <numerusform>Går i hvile om %n sekund</numerusform>
+            <numerusform>Går i hvile om %n sekunder</numerusform>
+        </translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../../../batterywatcher.cpp" line="128"/>
-        <source>Hibernating in %1 seconds</source>
-        <translation>Dvaler om %1 sekunder</translation>
+        <source>Hibernating in %n second(s)</source>
+        <translation>
+            <numerusform>Går i dvale om %n sekund</numerusform>
+            <numerusform>Går i dvale om %n sekunder</numerusform>
+        </translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../../../batterywatcher.cpp" line="131"/>
-        <source>Shutting down in %1 seconds</source>
-        <translation>Lukker ned om %1 sekunder</translation>
-    </message>
-</context>
-<context>
-    <name>IdlenessWatcher</name>
-    <message>
-        <location filename="../../../idlenesswatcher.cpp" line="50"/>
-        <source>LXQt Idleness watcher failed to start</source>
-        <translation>LXQt tomgangsovervåger kunne ikke starte</translation>
-    </message>
-    <message>
-        <location filename="../../../idlenesswatcher.cpp" line="73"/>
-        <source>D-Bus interface org.freedesktop.ScreenSaver is already registered</source>
-        <translation>D-Bus-grænsefladen org.freedesktop.ScreenSaver er allerede registreret</translation>
-    </message>
-    <message>
-        <location filename="../../../idlenesswatcher.cpp" line="107"/>
-        <source>The X11 Screensaver extension is not usable</source>
-        <translation>X11-pauseskærm-udvidelsen er ikke brugbar</translation>
-    </message>
-    <message>
-        <location filename="../../../idlenesswatcher.cpp" line="114"/>
-        <source>Configure...</source>
-        <translation>Konfigurér...</translation>
-    </message>
-    <message>
-        <location filename="../../../idlenesswatcher.cpp" line="179"/>
-        <source>ERROR: Screen unlocked</source>
-        <translation>FEJL: skærmen er låst op</translation>
-    </message>
-    <message>
-        <location filename="../../../idlenesswatcher.cpp" line="181"/>
-        <source>Locking program &quot;%1&quot; exited with error code %2</source>
-        <translation>Låsningsprogrammet &quot;%1&quot; afsluttede med fejlkoden %2</translation>
-    </message>
-    <message>
-        <location filename="../../../idlenesswatcher.cpp" line="183"/>
-        <source>Locking program &quot;%1&quot; crashed with error code %2</source>
-        <translation>Låsningsprogrammet &quot;%1&quot; stoppede med at virke med fejlkoden %2</translation>
+        <source>Shutting down in %n second(s)</source>
+        <translation>
+            <numerusform>Lukker ned om %n sekund</numerusform>
+            <numerusform>Lukker ned om %n sekunder</numerusform>
+        </translation>
     </message>
 </context>
 <context>
     <name>PowerManagementd</name>
     <message>
-        <location filename="../../../powermanagementd.cpp" line="107"/>
+        <location filename="../../../powermanagementd.cpp" line="108"/>
         <source>Power Management</source>
         <translation>Strømstyring</translation>
     </message>
     <message>
-        <location filename="../../../powermanagementd.cpp" line="108"/>
+        <location filename="../../../powermanagementd.cpp" line="109"/>
         <source>You are running LXQt Power Management for the first time.
 You can configure it from settings... </source>
         <translation>Du kører LXQt-strømstyring for første gang.
 Du kan konfigurere den fra indstillinger... </translation>
     </message>
     <message>
-        <location filename="../../../powermanagementd.cpp" line="109"/>
+        <location filename="../../../powermanagementd.cpp" line="110"/>
         <source>Configure...</source>
         <translation>Konfigurér...</translation>
     </message>
