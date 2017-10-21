@@ -120,7 +120,7 @@
     <message>
         <location filename="../../../basicsettings.ui" line="124"/>
         <source>Lock screen before suspending/hibernating</source>
-        <translation type="unfinished"></translation>
+        <translation>Uzamknout obrazovku před uspáním do paměti/na disk</translation>
     </message>
     <message>
         <location filename="../../../basicsettings.ui" line="23"/>

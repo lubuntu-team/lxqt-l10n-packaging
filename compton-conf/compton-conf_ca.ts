@@ -56,7 +56,7 @@
     <message>
         <location filename="../../maindialog.ui" line="106"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation>Evita dibuixar les ombres en les finestres des acobladors o dels plafons</translation>
+        <translation>Evita dibuixar les ombres en les finestres dels acobladors o dels plafons</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="113"/>
@@ -161,22 +161,36 @@
         <translation>Altres</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="362"/>
-        <source>Not implemented yet</source>
-        <translation>Encara no està implementat</translation>
+        <location filename="../../maindialog.ui" line="368"/>
+        <source>Rendering backend</source>
+        <translation>Dorsal de renderització</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="375"/>
+        <location filename="../../maindialog.ui" line="380"/>
+        <source>X Render</source>
+        <translation>Renderitzador de les X</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="387"/>
+        <source>GLX (OpenGL)</source>
+        <translation>GLX (OpenGL)</translation>
+    </message>
+    <message>
+        <source>Not implemented yet</source>
+        <translation type="vanished">Encara no està implementat</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="403"/>
         <source>About</source>
         <translation>Quant a</translation>
     </message>
     <message>
-        <location filename="../../maindialog.cpp" line="179"/>
+        <location filename="../../maindialog.cpp" line="206"/>
         <source>About ComptonConf</source>
         <translation>Quant a ComptonConf</translation>
     </message>
     <message>
-        <location filename="../../maindialog.cpp" line="180"/>
+        <location filename="../../maindialog.cpp" line="207"/>
         <source>ComptonConf - configuration tool for compton
 
 Copyright (C) 2013

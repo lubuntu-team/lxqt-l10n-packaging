@@ -153,7 +153,7 @@
     <message>
         <location filename="../../../lxqttaskbarconfiguration.ui" line="83"/>
         <source>Cycle windows on wheel scrolling</source>
-        <translation type="unfinished"></translation>
+        <translation>Kroužit okny při otáčení kolečka myši</translation>
     </message>
     <message>
         <location filename="../../../lxqttaskbarconfiguration.ui" line="93"/>
@@ -163,7 +163,7 @@
     <message>
         <location filename="../../../lxqttaskbarconfiguration.ui" line="102"/>
         <source>Show popup on mouse hover</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukázat vyskakovací okno při přejetí ukazovátka myši</translation>
     </message>
     <message>
         <source>Show popup on mouse hover </source>

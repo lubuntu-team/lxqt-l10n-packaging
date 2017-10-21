@@ -290,57 +290,57 @@ També es reserva un espai per a 3 línies de text.</translation>
     <message>
         <location filename="../../desktop-preferences.ui" line="315"/>
         <source>Slide Show</source>
-        <translation type="unfinished"></translation>
+        <translation>Presentació de diapositives</translation>
     </message>
     <message>
         <location filename="../../desktop-preferences.ui" line="321"/>
         <source>Enable Slide Show</source>
-        <translation type="unfinished"></translation>
+        <translation>Habilita la presentació de diapositives</translation>
     </message>
     <message>
         <location filename="../../desktop-preferences.ui" line="333"/>
         <source>Wallpaper image folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>Carpeta de la imatge del fons de pantalla:</translation>
     </message>
     <message>
         <location filename="../../desktop-preferences.ui" line="340"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Navega</translation>
     </message>
     <message>
         <location filename="../../desktop-preferences.ui" line="347"/>
         <source> hour(s)</source>
-        <translation type="unfinished"></translation>
+        <translation> hor(a/es)</translation>
     </message>
     <message>
         <location filename="../../desktop-preferences.ui" line="357"/>
         <source>and</source>
-        <translation type="unfinished"></translation>
+        <translation>i</translation>
     </message>
     <message>
         <location filename="../../desktop-preferences.ui" line="370"/>
         <source>Intervals less than 5min will be ignored</source>
-        <translation type="unfinished"></translation>
+        <translation>Els intervals de menys de 5 min seran ignorats</translation>
     </message>
     <message>
         <location filename="../../desktop-preferences.ui" line="373"/>
         <source>Interval:</source>
-        <translation type="unfinished"></translation>
+        <translation>Interval:</translation>
     </message>
     <message>
         <location filename="../../desktop-preferences.ui" line="380"/>
         <source> minute(s)</source>
-        <translation type="unfinished"></translation>
+        <translation> minut(s)</translation>
     </message>
     <message>
         <location filename="../../desktop-preferences.ui" line="406"/>
         <source>Wallpaper folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Carpeta del fons d&apos;escriptori</translation>
     </message>
     <message>
         <location filename="../../desktop-preferences.ui" line="429"/>
         <source>Randomize the slide show</source>
-        <translation type="unfinished"></translation>
+        <translation>Aleatoritza la presentació de diapositives</translation>
     </message>
     <message>
         <location filename="../../desktop-preferences.ui" line="459"/>
@@ -986,13 +986,13 @@ També es reserva un espai per a 3 línies de text.</translation>
         <translation>[FITXER1, FITXER2,...]</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="524"/>
-        <location filename="../../application.cpp" line="529"/>
+        <location filename="../../application.cpp" line="540"/>
+        <location filename="../../application.cpp" line="545"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="529"/>
+        <location filename="../../application.cpp" line="545"/>
         <source>Terminal emulator is not set.</source>
         <translation>L&apos;emulador del terminal no està establert.</translation>
     </message>
@@ -1117,23 +1117,23 @@ També es reserva un espai per a 3 línies de text.</translation>
         <translation>Versió: %1</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1210"/>
+        <location filename="../../mainwindow.cpp" line="1263"/>
         <source>&amp;Move to Trash</source>
         <translation>&amp;Mou a la paperera</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1210"/>
+        <location filename="../../mainwindow.cpp" line="1263"/>
         <source>&amp;Delete</source>
         <translation>&amp;Suprimeix</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1279"/>
-        <location filename="../../mainwindow.cpp" line="1287"/>
+        <location filename="../../mainwindow.cpp" line="1332"/>
+        <location filename="../../mainwindow.cpp" line="1340"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1287"/>
+        <location filename="../../mainwindow.cpp" line="1340"/>
         <source>Switch user command is not set.</source>
         <translation>L&apos;ordre de canvi d&apos;usuari no està establerta.</translation>
     </message>
@@ -1297,7 +1297,7 @@ També es reserva un espai per a 3 línies de text.</translation>
     <message>
         <location filename="../../preferences.ui" line="487"/>
         <source>Show &apos;Close&apos; buttons on tabs	</source>
-        <translation>Mostra els botons de &apos;Tanca&apos; en les pestanyes</translation>
+        <translation>Mostra els botons de &apos;Tanca&apos; en les pestanyes	</translation>
     </message>
     <message>
         <location filename="../../preferences.ui" line="494"/>

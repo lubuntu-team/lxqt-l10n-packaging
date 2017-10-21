@@ -193,7 +193,25 @@ will also be treated as text and not be used as an expression.
 
 
 Custom date format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vykládané posloupnosti formátu data jsou:
+
+d	den jako číslo bez nuly na začátku (1 až 31).
+dd	den jako číslo s nulou na začátku (01 až 31).
+ddd	zkrácený název dne (např. Po až Ne).
+dddd	dlouhý název dne (např Pondělí až Neděle).
+M	měsíc jako číslo bez nuly na začátku (1-12).
+MM	měsíc jako číslo s nulou na začátku (01-12).
+MMM	zkrácený název měsíce (např. Led až Pro).
+MMMM	dlouhý název měsíce (např. Leden až Prosinec).
+yy	rok jako číslo ze dvou číslic (00-99).
+yyyy	rok jako číslo ze čtyř číslic
+
+Se všemi ostatními zadanými znaky se bude zacházet jako s textem.
+Se všemi ostatními znakovými posloupnostmi uzavřenými v jednoduchých závorkách (&apos;)
+se bude stejně tak zacházet jako s textem a nebudou se používat jako výraz.
+
+
+Vlastní formát data:</translation>
     </message>
 </context>
 </TS>
