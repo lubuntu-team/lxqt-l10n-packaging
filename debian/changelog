@@ -1,3 +1,14 @@
+lxqt-l10n (0.12.0-1) experimental; urgency=medium
+
+  * Cherry-picking upstream version 0.12.0.
+  * Bumped standards to 4.1.1
+  * Bumped build tools to >= 0.4.0
+  * Fixed Section - all packages belong to localization
+  * fixed override_dh_missing
+  * build without qtermwidget_l10n right now, work in progress
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 22 Oct 2017 21:00:04 +0200
+
 lxqt-l10n (0.11.2-3) unstable; urgency=medium
 
   * Added Section: localization to the language packages

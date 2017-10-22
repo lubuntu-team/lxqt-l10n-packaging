@@ -59,9 +59,13 @@
         <translation>Não criar sombras nas janelas da doca/painel</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="113"/>
         <source>Enabled client-side shadows on windows</source>
-        <translation>Ativar sombras &quot;client-side&quot; nas janelas</translation>
+        <translation type="vanished">Ativar sombras &quot;client-side&quot; nas janelas</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="113"/>
+        <source>Enable client-side shadows on windows</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>
@@ -161,22 +165,36 @@
         <translation>Outras</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="362"/>
-        <source>Not implemented yet</source>
-        <translation>Ainda não implementadas</translation>
+        <location filename="../../maindialog.ui" line="368"/>
+        <source>Rendering backend</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="375"/>
+        <location filename="../../maindialog.ui" line="380"/>
+        <source>X Render</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="387"/>
+        <source>GLX (OpenGL)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not implemented yet</source>
+        <translation type="vanished">Ainda não implementadas</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="403"/>
         <source>About</source>
         <translation>Sobre</translation>
     </message>
     <message>
-        <location filename="../../maindialog.cpp" line="179"/>
+        <location filename="../../maindialog.cpp" line="206"/>
         <source>About ComptonConf</source>
         <translation>Sobre ComptomConf</translation>
     </message>
     <message>
-        <location filename="../../maindialog.cpp" line="180"/>
+        <location filename="../../maindialog.cpp" line="207"/>
         <source>ComptonConf - configuration tool for compton
 
 Copyright (C) 2013

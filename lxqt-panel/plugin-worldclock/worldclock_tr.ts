@@ -4,7 +4,7 @@
 <context>
     <name>LXQtWorldClock</name>
     <message>
-        <location filename="../../../lxqtworldclock.cpp" line="191"/>
+        <location filename="../../../lxqtworldclock.cpp" line="237"/>
         <source>&apos;&lt;b&gt;&apos;HH:mm:ss&apos;&lt;/b&gt;&lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;&apos;ddd, d MMM yyyy&apos;&lt;br/&gt;&apos;TT&apos;&lt;/font&gt;&apos;</source>
         <translation>&apos;&lt;b&gt;&apos;SS:dd:ss&apos;&lt;/b&gt;&lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;&apos;ggg, g AAA yyyy&apos;&lt;br/&gt;&apos;TT&apos;&lt;/font&gt;&apos;</translation>
     </message>
@@ -59,7 +59,7 @@
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="96"/>
         <source>Pad &amp;hour with zero</source>
-        <translation type="unfinished"></translation>
+        <translation>Pad &amp;saat sıfır ile</translation>
     </message>
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="116"/>
@@ -103,17 +103,17 @@
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="186"/>
         <source>Offset from UTC</source>
-        <translation type="unfinished"></translation>
+        <translation>UTC Kapalı</translation>
     </message>
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="191"/>
         <source>Abbreviation</source>
-        <translation type="unfinished"></translation>
+        <translation>Kısaltma</translation>
     </message>
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="431"/>
         <source>IANA id</source>
-        <translation type="unfinished"></translation>
+        <translation>IANA id</translation>
     </message>
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="201"/>
@@ -150,7 +150,7 @@
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="282"/>
         <source>ISO 8601</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO 8601</translation>
     </message>
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="316"/>
@@ -165,17 +165,17 @@
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="330"/>
         <source>Pad d&amp;ay with zero</source>
-        <translation type="unfinished"></translation>
+        <translation>Pad g&amp;ün sıfır ile</translation>
     </message>
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="337"/>
         <source>&amp;Long month and day of week names</source>
-        <translation type="unfinished"></translation>
+        <translation>Haftada &amp;uzun ay ve gün isimleri</translation>
     </message>
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="350"/>
         <source>Ad&amp;vanced manual format</source>
-        <translation type="unfinished"></translation>
+        <translation>Ge&amp;lişmiş manuel format</translation>
     </message>
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="377"/>
@@ -205,7 +205,7 @@
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="476"/>
         <source>&amp;Edit custom name ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Özel adı &amp;düzenle</translation>
     </message>
     <message>
         <location filename="../../../lxqtworldclockconfiguration.ui" line="486"/>

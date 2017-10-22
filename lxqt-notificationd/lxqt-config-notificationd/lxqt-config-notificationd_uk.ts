@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<TS version="2.1" language="uk">
 <context>
     <name>AdvancedSettings</name>
     <message>
@@ -58,26 +58,26 @@
         <translation>Позиція на екрані</translation>
     </message>
     <message>
-        <location filename="../../../basicsettings.cpp" line="57"/>
+        <location filename="../../../basicsettings.cpp" line="56"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; No notifications daemon is running.
 A fallback will be used.</source>
         <translation>&lt;b&gt;Попередження:&lt;/b&gt; Жодного демону повідомлень не запущено.
 Буде використаний аварійний.</translation>
     </message>
     <message>
-        <location filename="../../../basicsettings.cpp" line="60"/>
+        <location filename="../../../basicsettings.cpp" line="59"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; A third-party notifications daemon (%1) is running.
 These settings won&apos;t have any effect on it!</source>
         <translation>&lt;b&gt;Попередження&lt;/b&gt; Інший демон повідомлень (%1) запущено.
 Ці налаштування не мають впливу на нього!</translation>
     </message>
     <message>
-        <location filename="../../../basicsettings.cpp" line="117"/>
+        <location filename="../../../basicsettings.cpp" line="112"/>
         <source>Notification demo </source>
         <translation>Демонстрація попереджень</translation>
     </message>
     <message>
-        <location filename="../../../basicsettings.cpp" line="118"/>
+        <location filename="../../../basicsettings.cpp" line="113"/>
         <source>This is a test notification.
  All notifications will now appear here on LXQt.</source>
         <translation>Це тестове повідомлення.

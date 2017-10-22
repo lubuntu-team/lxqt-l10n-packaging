@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<TS version="2.1" language="uk">
 <context>
     <name>MainDialog</name>
     <message>
@@ -46,27 +46,31 @@
     <message>
         <location filename="../../maindialog.ui" line="92"/>
         <source>Zero the part of the shadow&apos;s mask behind the window</source>
-        <translation type="unfinished"></translation>
+        <translation>Зменшити до нуля частину маски тіні за вікном</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="99"/>
         <source>Don&apos;t draw shadows on DND windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Не промальовувати тіні на вікні DND</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="106"/>
         <source>Avoid drawing shadows on dock/panel windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Уникати малювання тіней на вікні доку/панелі</translation>
+    </message>
+    <message>
+        <source>Enabled client-side shadows on windows</source>
+        <translation type="vanished">Включено клієнтську частину тіней на вікнах</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="113"/>
-        <source>Enabled client-side shadows on windows</source>
+        <source>Enable client-side shadows on windows</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="120"/>
         <source>Avoid drawing shadow on all shaped windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Уникати малювання тіні на всіх фігурних вікнах</translation>
     </message>
     <message>
         <location filename="../../maindialog.ui" line="138"/>
@@ -160,22 +164,36 @@
         <translation>Інше</translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="362"/>
-        <source>Not implemented yet</source>
-        <translation>Ще не впроваджено</translation>
+        <location filename="../../maindialog.ui" line="368"/>
+        <source>Rendering backend</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../maindialog.ui" line="375"/>
+        <location filename="../../maindialog.ui" line="380"/>
+        <source>X Render</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="387"/>
+        <source>GLX (OpenGL)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not implemented yet</source>
+        <translation type="vanished">Ще не впроваджено</translation>
+    </message>
+    <message>
+        <location filename="../../maindialog.ui" line="403"/>
         <source>About</source>
         <translation>Про</translation>
     </message>
     <message>
-        <location filename="../../maindialog.cpp" line="179"/>
+        <location filename="../../maindialog.cpp" line="206"/>
         <source>About ComptonConf</source>
         <translation>Про ComptonConf</translation>
     </message>
     <message>
-        <location filename="../../maindialog.cpp" line="180"/>
+        <location filename="../../maindialog.cpp" line="207"/>
         <source>ComptonConf - configuration tool for compton
 
 Copyright (C) 2013

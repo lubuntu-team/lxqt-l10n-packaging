@@ -74,19 +74,23 @@
         <translation>Biçim Ayarları Değiştirildi</translation>
     </message>
     <message>
-        <location filename="../../../localeconfig.cpp" line="309"/>
         <source>Save the settings ? (they will take effect the next time you log in)</source>
-        <translation>Ayarlar kaydedilsin mi? (Ayarlar oturumu yeniden başlattığınızda etkin olacak)</translation>
+        <translation type="vanished">Ayarlar kaydedilsin mi? (Ayarlar oturumu yeniden başlattığınızda etkin olacak)</translation>
+    </message>
+    <message>
+        <location filename="../../../localeconfig.cpp" line="309"/>
+        <source>Do you want to save your changes? They will take effect the next time you log in.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../../localeconfig.cpp" line="430"/>
         <source>Imperial UK</source>
-        <translation type="unfinished"></translation>
+        <translation>Birleşik Krallık</translation>
     </message>
     <message>
         <location filename="../../../localeconfig.cpp" line="434"/>
         <source>Imperial US</source>
-        <translation type="unfinished"></translation>
+        <translation>Birleşik Devletler</translation>
     </message>
     <message>
         <location filename="../../../localeconfig.cpp" line="438"/>
@@ -97,12 +101,12 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../../main.cpp" line="38"/>
+        <location filename="../../../main.cpp" line="50"/>
         <source>LXQt Locale Configuration</source>
         <translation>LXQT Yerel Yapılandırması</translation>
     </message>
     <message>
-        <location filename="../../../main.cpp" line="43"/>
+        <location filename="../../../main.cpp" line="55"/>
         <source>Locale Settings</source>
         <translation>Yerel Ayarlar</translation>
     </message>

@@ -36,22 +36,22 @@
     <message>
         <location filename="../../../batteryhelper.cpp" line="62"/>
         <source>Lithium iron phosphate</source>
-        <translation type="unfinished"></translation>
+        <translation>Lityum demir fosfat</translation>
     </message>
     <message>
         <location filename="../../../batteryhelper.cpp" line="64"/>
         <source>Lead acid</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurşun asit</translation>
     </message>
     <message>
         <location filename="../../../batteryhelper.cpp" line="66"/>
         <source>Nickel cadmium</source>
-        <translation type="unfinished"></translation>
+        <translation>Nikel Kadmiyum</translation>
     </message>
     <message>
         <location filename="../../../batteryhelper.cpp" line="68"/>
         <source>Nickel metal hydride</source>
-        <translation type="unfinished"></translation>
+        <translation>Nikel metal hidrid</translation>
     </message>
     <message>
         <location filename="../../../batteryhelper.cpp" line="71"/>
@@ -61,17 +61,17 @@
     <message>
         <location filename="../../../batteryhelper.cpp" line="80"/>
         <source>Personal Digital Assistant&apos;s battery</source>
-        <translation type="unfinished"></translation>
+        <translation>Kişisel Dijital Pil Asistan&apos;ları</translation>
     </message>
     <message>
         <location filename="../../../batteryhelper.cpp" line="82"/>
         <source>Uninterruptible Power Supply&apos;s battery</source>
-        <translation type="unfinished"></translation>
+        <translation>Kesintisiz Güç Kaynak&apos;ları</translation>
     </message>
     <message>
         <location filename="../../../batteryhelper.cpp" line="84"/>
         <source>Primary battery</source>
-        <translation type="unfinished"></translation>
+        <translation>Birincil pil</translation>
     </message>
     <message>
         <location filename="../../../batteryhelper.cpp" line="86"/>
@@ -197,76 +197,87 @@
         <source>Power low!</source>
         <translation>Pil Zayıf!</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../../../batterywatcher.cpp" line="125"/>
-        <source>Suspending in %1 seconds</source>
-        <translation>Bilgisayar %1 saniye içinde beklemeye alınacak</translation>
+        <source>Suspending in %n second(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
     </message>
-    <message>
+    <message numerus="yes">
         <location filename="../../../batterywatcher.cpp" line="128"/>
-        <source>Hibernating in %1 seconds</source>
-        <translation>Bilgisayar %1 saniye içinde uykuya alınacak</translation>
+        <source>Hibernating in %n second(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../../../batterywatcher.cpp" line="131"/>
+        <source>Shutting down in %n second(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../../../batterywatcher.cpp" line="131"/>
+        <source>Suspending in %1 seconds</source>
+        <translation type="vanished">Bilgisayar %1 saniye içinde beklemeye alınacak</translation>
+    </message>
+    <message>
+        <source>Hibernating in %1 seconds</source>
+        <translation type="vanished">Bilgisayar %1 saniye içinde uykuya alınacak</translation>
+    </message>
+    <message>
         <source>Shutting down in %1 seconds</source>
-        <translation>Bilgisayar %1 saniye içinde kapatlacak</translation>
+        <translation type="vanished">Bilgisayar %1 saniye içinde kapatlacak</translation>
     </message>
 </context>
 <context>
     <name>IdlenessWatcher</name>
     <message>
-        <location filename="../../../idlenesswatcher.cpp" line="50"/>
         <source>LXQt Idleness watcher failed to start</source>
-        <translation>LXQT Bekleme izleyicisi başlatılamadı</translation>
+        <translation type="vanished">LXQT Bekleme izleyicisi başlatılamadı</translation>
     </message>
     <message>
-        <location filename="../../../idlenesswatcher.cpp" line="73"/>
         <source>D-Bus interface org.freedesktop.ScreenSaver is already registered</source>
-        <translation>D-Bus arayüzü org.freedesktop.ScreenSaver zaten kayıtlı</translation>
+        <translation type="vanished">D-Bus arayüzü org.freedesktop.ScreenSaver zaten kayıtlı</translation>
     </message>
     <message>
-        <location filename="../../../idlenesswatcher.cpp" line="107"/>
         <source>The X11 Screensaver extension is not usable</source>
-        <translation>X11 Screensaver eklentisi kullanılamaz</translation>
+        <translation type="vanished">X11 Screensaver eklentisi kullanılamaz</translation>
     </message>
     <message>
-        <location filename="../../../idlenesswatcher.cpp" line="114"/>
         <source>Configure...</source>
-        <translation>Yapılandır...</translation>
+        <translation type="vanished">Yapılandır...</translation>
     </message>
     <message>
-        <location filename="../../../idlenesswatcher.cpp" line="179"/>
         <source>ERROR: Screen unlocked</source>
-        <translation>HATA: Ekran kilidi açılamadı</translation>
+        <translation type="vanished">HATA: Ekran kilidi açılamadı</translation>
     </message>
     <message>
-        <location filename="../../../idlenesswatcher.cpp" line="181"/>
         <source>Locking program &quot;%1&quot; exited with error code %2</source>
-        <translation>Kilitleme programı &quot;%1&quot; hata kodu %2 ile çıktı</translation>
+        <translation type="vanished">Kilitleme programı &quot;%1&quot; hata kodu %2 ile çıktı</translation>
     </message>
     <message>
-        <location filename="../../../idlenesswatcher.cpp" line="183"/>
         <source>Locking program &quot;%1&quot; crashed with error code %2</source>
-        <translation>Kilitleme programı &quot;%1&quot; hata kodu %2 ile çöktü</translation>
+        <translation type="vanished">Kilitleme programı &quot;%1&quot; hata kodu %2 ile çöktü</translation>
     </message>
 </context>
 <context>
     <name>PowerManagementd</name>
     <message>
-        <location filename="../../../powermanagementd.cpp" line="107"/>
+        <location filename="../../../powermanagementd.cpp" line="108"/>
         <source>Power Management</source>
         <translation>Güç Yönetimi</translation>
     </message>
     <message>
-        <location filename="../../../powermanagementd.cpp" line="108"/>
+        <location filename="../../../powermanagementd.cpp" line="109"/>
         <source>You are running LXQt Power Management for the first time.
 You can configure it from settings... </source>
         <translation>LXQT Güç Yönetimini ilk defa çalıştırıyorsunuz. 
 Güç yönetimini ayarladan yapılandırabilirsiniz...</translation>
     </message>
     <message>
-        <location filename="../../../powermanagementd.cpp" line="109"/>
+        <location filename="../../../powermanagementd.cpp" line="110"/>
         <source>Configure...</source>
         <translation>Yapılandır...</translation>
     </message>
