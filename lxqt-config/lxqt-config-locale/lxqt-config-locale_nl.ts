@@ -74,9 +74,13 @@
         <translation>De instellingen zijn veranderd</translation>
     </message>
     <message>
-        <location filename="../../../localeconfig.cpp" line="309"/>
         <source>Save the settings ? (they will take effect the next time you log in)</source>
-        <translation>Instellingen opslaan? Ze zullen van kracht worden nadat u zich opnieuw hebt aangemeld.</translation>
+        <translation type="vanished">Instellingen opslaan? Ze zullen van kracht worden nadat u zich opnieuw hebt aangemeld.</translation>
+    </message>
+    <message>
+        <location filename="../../../localeconfig.cpp" line="309"/>
+        <source>Do you want to save your changes? They will take effect the next time you log in.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../../localeconfig.cpp" line="430"/>
@@ -97,12 +101,12 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../../main.cpp" line="38"/>
+        <location filename="../../../main.cpp" line="50"/>
         <source>LXQt Locale Configuration</source>
         <translation>LXQt regionale instellingen</translation>
     </message>
     <message>
-        <location filename="../../../main.cpp" line="43"/>
+        <location filename="../../../main.cpp" line="55"/>
         <source>Locale Settings</source>
         <translation>Regionale instellingen</translation>
     </message>

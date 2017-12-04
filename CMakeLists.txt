@@ -2,7 +2,10 @@ cmake_minimum_required(VERSION 3.0.2 FATAL_ERROR)
 
 project(translations)
 
-set(LXQTBT_MINIMUM_VERSION "0.1.0")
+set(LXQTBT_MINIMUM_VERSION "0.4.0")
+
+# l10n has no binaries - but we can set an informal version
+# Version 0.12.0
 
 find_package(Qt5LinguistTools REQUIRED)
 find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
@@ -30,6 +33,7 @@ option(WITH_OBCONF_QT "Build obconf-qt translations" ON)
 option(WITH_PAVUCONTROL_QT "Build pavucontrol-qt translations" ON)
 option(WITH_PCMANFM_QT "Build pcmanfm-qt translations" ON)
 option(WITH_QTERMINAL "Build qterminal translations" ON)
+option(WITH_QTERMWIDGET "Build qtermwidget translations" ON)
 
 if (BUILD_TESTING)
     enable_testing()
@@ -110,3 +114,4 @@ add_component(WITH_OBCONF_QT obconf-qt)
 add_component(WITH_PAVUCONTROL_QT pavucontrol-qt)
 add_component(WITH_PCMANFM_QT pcmanfm-qt)
 add_component(WITH_QTERMINAL qterminal)
+add_component(WITH_QTERMWIDGET qtermwidget)

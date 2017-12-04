@@ -15,7 +15,7 @@
     <message>
         <location filename="../../about.ui" line="25"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;PCManFM-Qt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;PCManFM-Qt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../about.ui" line="48"/>
@@ -101,42 +101,42 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <message>
         <location filename="../../connect.ui" line="14"/>
         <source>Connect to remote server</source>
-        <translation type="unfinished"></translation>
+        <translation>Connexió a un servidor remot</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="23"/>
         <source>Anonymous &amp;login</source>
-        <translation type="unfinished"></translation>
+        <translation>Inici de &amp;sessió anònim</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="36"/>
         <source>Login as &amp;user:</source>
-        <translation type="unfinished"></translation>
+        <translation>Inicia la sessió com a l&apos;&amp;usuari:</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="65"/>
         <source>Specify remote folder to connect</source>
-        <translation type="unfinished"></translation>
+        <translation>Especifiqueu la carpeta remota a connectar</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="72"/>
         <source>Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipus:</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="79"/>
         <source>Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>Port:</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="86"/>
         <source>Path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Camí:</translation>
     </message>
     <message>
         <location filename="../../connect.ui" line="96"/>
         <source>Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>Amfitrió:</translation>
     </message>
 </context>
 <context>
@@ -242,7 +242,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
     <message>
         <location filename="../../desktop-preferences.ui" line="202"/>
         <source>Select font:</source>
-        <translation>Seleccioneu el tipus de lletra:</translation>
+        <translation>Seleccioneu la lletra:</translation>
     </message>
     <message>
         <location filename="../../desktop-preferences.ui" line="24"/>
@@ -288,17 +288,72 @@ També es reserva un espai per a 3 línies de text.</translation>
         <translation>Bloqueja</translation>
     </message>
     <message>
+        <location filename="../../desktop-preferences.ui" line="315"/>
+        <source>Slide Show</source>
+        <translation>Presentació de diapositives</translation>
+    </message>
+    <message>
         <location filename="../../desktop-preferences.ui" line="321"/>
+        <source>Enable Slide Show</source>
+        <translation>Habilita la presentació de diapositives</translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="333"/>
+        <source>Wallpaper image folder:</source>
+        <translation>Carpeta de la imatge del fons de pantalla:</translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="340"/>
+        <source>Browse</source>
+        <translation>Navega</translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="347"/>
+        <source> hour(s)</source>
+        <translation> hor(a/es)</translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="357"/>
+        <source>and</source>
+        <translation>i</translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="370"/>
+        <source>Intervals less than 5min will be ignored</source>
+        <translation>Els intervals de menys de 5 min seran ignorats</translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="373"/>
+        <source>Interval:</source>
+        <translation>Interval:</translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="380"/>
+        <source> minute(s)</source>
+        <translation> minut(s)</translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="406"/>
+        <source>Wallpaper folder</source>
+        <translation>Carpeta del fons d&apos;escriptori</translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="429"/>
+        <source>Randomize the slide show</source>
+        <translation>Aleatoritza la presentació de diapositives</translation>
+    </message>
+    <message>
+        <location filename="../../desktop-preferences.ui" line="459"/>
         <source>Window Manager</source>
         <translation>Gestor de finestres</translation>
     </message>
     <message>
-        <location filename="../../desktop-preferences.ui" line="327"/>
+        <location filename="../../desktop-preferences.ui" line="465"/>
         <source>Show menus provided by window managers when desktop is clicked</source>
         <translation>Mostra els menús proporcionats amb els gestors de finestres quan es faci clic a l&apos;escriptori</translation>
     </message>
     <message>
-        <location filename="../../desktop-preferences.ui" line="315"/>
+        <location filename="../../desktop-preferences.ui" line="453"/>
         <source>Advanced</source>
         <translation>Avançat</translation>
     </message>
@@ -318,12 +373,12 @@ També es reserva un espai per a 3 línies de text.</translation>
     <message>
         <location filename="../../main-win.ui" line="178"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Barres d&apos;eines</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="185"/>
         <source>Path &amp;Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Barra del camí</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="290"/>
@@ -539,7 +594,7 @@ També es reserva un espai per a 3 línies de text.</translation>
     <message>
         <location filename="../../main-win.ui" line="569"/>
         <source>&amp;Preserve sorting for this folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Preserva l&apos;ordenació per a aquesta carpeta</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="668"/>
@@ -584,32 +639,32 @@ També es reserva un espai per a 3 línies de text.</translation>
     <message>
         <location filename="../../main-win.ui" line="759"/>
         <source>Close &amp;previous tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Tanca les &amp;pestanyes anteriors</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="768"/>
         <source>Close &amp;next tabs</source>
-        <translation type="unfinished"></translation>
+        <translation>Tanca les pestanyes següe&amp;nts</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="807"/>
         <source>&amp;Preserve Settings for This Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Preserva els ajusts per a aquesta carpeta</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="812"/>
         <source>Connect to &amp;Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Connecta&apos;t al &amp;servidor</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="820"/>
         <source>&amp;Location</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ubicació</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="828"/>
         <source>&amp;Path Buttons</source>
-        <translation type="unfinished"></translation>
+        <translation>Botons del &amp;camí</translation>
     </message>
     <message>
         <source>Close &amp;left tabs</source>
@@ -627,7 +682,7 @@ També es reserva un espai per a 3 línies de text.</translation>
     <message>
         <location filename="../../main-win.ui" line="781"/>
         <source>&amp;Menu bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Barra del &amp;menú</translation>
     </message>
     <message>
         <location filename="../../main-win.ui" line="784"/>
@@ -845,99 +900,99 @@ També es reserva un espai per a 3 línies de text.</translation>
 <context>
     <name>PCManFM::Application</name>
     <message>
-        <location filename="../../application.cpp" line="169"/>
+        <location filename="../../application.cpp" line="170"/>
         <source>Name of configuration profile</source>
         <translation>Nom del perfil de la configuració</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="169"/>
+        <location filename="../../application.cpp" line="170"/>
         <source>PROFILE</source>
         <translation>PERFIL</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="172"/>
+        <location filename="../../application.cpp" line="173"/>
         <source>Run PCManFM as a daemon</source>
         <translation>Executa PCManFM com a dimoni</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="175"/>
+        <location filename="../../application.cpp" line="176"/>
         <source>Quit PCManFM</source>
         <translation>Surt de PCManFM</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="178"/>
+        <location filename="../../application.cpp" line="179"/>
         <source>Launch desktop manager</source>
         <translation>Llança el gestor d&apos;escriptoris</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="181"/>
+        <location filename="../../application.cpp" line="182"/>
         <source>Turn off desktop manager if it&apos;s running</source>
         <translation>Apaga el gestor d&apos;escriptoris si s&apos;està executant</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="184"/>
+        <location filename="../../application.cpp" line="185"/>
         <source>Open desktop preference dialog on the page with the specified name</source>
         <translation>Obre el diàleg de preferències de l&apos;escriptori en la pàgina amb el nom especificat</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="184"/>
-        <location filename="../../application.cpp" line="199"/>
+        <location filename="../../application.cpp" line="185"/>
+        <location filename="../../application.cpp" line="200"/>
         <source>NAME</source>
         <translation>NOM</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="187"/>
+        <location filename="../../application.cpp" line="188"/>
         <source>Open new window</source>
         <translation>Obre una finestra nova</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="190"/>
+        <location filename="../../application.cpp" line="191"/>
         <source>Open Find Files utility</source>
         <translation>Obre la utilitat Troba fitxers</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="193"/>
+        <location filename="../../application.cpp" line="194"/>
         <source>Set desktop wallpaper from image FILE</source>
         <translation>Estableix la imatge del fons de l&apos;escriptori a partir del FITXER de la imatge</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="193"/>
+        <location filename="../../application.cpp" line="194"/>
         <source>FILE</source>
         <translation>FITXER</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="196"/>
+        <location filename="../../application.cpp" line="197"/>
         <source>MODE</source>
         <translation>MODE</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="196"/>
+        <location filename="../../application.cpp" line="197"/>
         <source>Set mode of desktop wallpaper. MODE=(%1)</source>
         <translation>Estableix el mode de la imatge del fons de l&apos;escriptori. MODE=(%1)</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="199"/>
+        <location filename="../../application.cpp" line="200"/>
         <source>Open Preferences dialog on the page with the specified name</source>
         <translation>Obre el diàleg de preferències en la pàgina amb el nom especificat</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="202"/>
+        <location filename="../../application.cpp" line="203"/>
         <source>Files or directories to open</source>
         <translation>Els fitxers o els directoris a obrir</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="202"/>
+        <location filename="../../application.cpp" line="203"/>
         <source>[FILE1, FILE2,...]</source>
         <translation>[FITXER1, FITXER2,...]</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="518"/>
-        <location filename="../../application.cpp" line="525"/>
+        <location filename="../../application.cpp" line="540"/>
+        <location filename="../../application.cpp" line="545"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../../application.cpp" line="525"/>
+        <location filename="../../application.cpp" line="545"/>
         <source>Terminal emulator is not set.</source>
         <translation>L&apos;emulador del terminal no està establert.</translation>
     </message>
@@ -945,12 +1000,12 @@ També es reserva un espai per a 3 línies de text.</translation>
 <context>
     <name>PCManFM::AutoRunDialog</name>
     <message>
-        <location filename="../../autorundialog.cpp" line="43"/>
+        <location filename="../../autorundialog.cpp" line="45"/>
         <source>Open in file manager</source>
         <translation>Obre al gestor de fitxers</translation>
     </message>
     <message>
-        <location filename="../../autorundialog.cpp" line="132"/>
+        <location filename="../../autorundialog.cpp" line="136"/>
         <source>Removable Disk</source>
         <translation>Disc extraïble</translation>
     </message>
@@ -960,32 +1015,32 @@ També es reserva un espai per a 3 línies de text.</translation>
     <message>
         <location filename="../../connectserverdialog.cpp" line="9"/>
         <source>SSH</source>
-        <translation type="unfinished"></translation>
+        <translation>SSH</translation>
     </message>
     <message>
         <location filename="../../connectserverdialog.cpp" line="10"/>
         <source>FTP</source>
-        <translation type="unfinished"></translation>
+        <translation>FTP</translation>
     </message>
     <message>
         <location filename="../../connectserverdialog.cpp" line="11"/>
         <source>WebDav</source>
-        <translation type="unfinished"></translation>
+        <translation>WebDav</translation>
     </message>
     <message>
         <location filename="../../connectserverdialog.cpp" line="12"/>
         <source>Secure WebDav</source>
-        <translation type="unfinished"></translation>
+        <translation>WebDav segur</translation>
     </message>
     <message>
         <location filename="../../connectserverdialog.cpp" line="13"/>
         <source>HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../../connectserverdialog.cpp" line="14"/>
         <source>HTTPS</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTPS</translation>
     </message>
 </context>
 <context>
@@ -1018,10 +1073,10 @@ També es reserva un espai per a 3 línies de text.</translation>
     <message>
         <location filename="../../desktoppreferencesdialog.cpp" line="57"/>
         <source>Zoom the image to fill the entire screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes zoom a la imatge per omplir tota la pantalla</translation>
     </message>
     <message>
-        <location filename="../../desktoppreferencesdialog.cpp" line="186"/>
+        <location filename="../../desktoppreferencesdialog.cpp" line="204"/>
         <source>Image Files</source>
         <translation>Fitxers d&apos;imatges</translation>
     </message>
@@ -1029,12 +1084,12 @@ També es reserva un espai per a 3 línies de text.</translation>
 <context>
     <name>PCManFM::DesktopWindow</name>
     <message>
-        <location filename="../../desktopwindow.cpp" line="367"/>
+        <location filename="../../desktopwindow.cpp" line="525"/>
         <source>Stic&amp;k to Current Position</source>
         <translation>Fi&amp;xa a la posició actual</translation>
     </message>
     <message>
-        <location filename="../../desktopwindow.cpp" line="389"/>
+        <location filename="../../desktopwindow.cpp" line="547"/>
         <source>Desktop Preferences</source>
         <translation>Preferències de l&apos;escriptori</translation>
     </message>
@@ -1042,7 +1097,7 @@ També es reserva un espai per a 3 línies de text.</translation>
 <context>
     <name>PCManFM::MainWindow</name>
     <message>
-        <location filename="../../mainwindow.cpp" line="262"/>
+        <location filename="../../mainwindow.cpp" line="264"/>
         <source>Clear text (Ctrl+K)</source>
         <translation>Neteja el text (Ctrl+K)</translation>
     </message>
@@ -1057,28 +1112,28 @@ També es reserva un espai per a 3 línies de text.</translation>
         <translation>Això ocultarà completament la barra de menús, utilitzeu Ctrl+M per tornar-la a mostrar.</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="626"/>
+        <location filename="../../mainwindow.cpp" line="628"/>
         <source>Version: %1</source>
         <translation>Versió: %1</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1172"/>
+        <location filename="../../mainwindow.cpp" line="1263"/>
         <source>&amp;Move to Trash</source>
         <translation>&amp;Mou a la paperera</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1172"/>
+        <location filename="../../mainwindow.cpp" line="1263"/>
         <source>&amp;Delete</source>
         <translation>&amp;Suprimeix</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1241"/>
-        <location filename="../../mainwindow.cpp" line="1252"/>
+        <location filename="../../mainwindow.cpp" line="1332"/>
+        <location filename="../../mainwindow.cpp" line="1340"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../../mainwindow.cpp" line="1252"/>
+        <location filename="../../mainwindow.cpp" line="1340"/>
         <source>Switch user command is not set.</source>
         <translation>L&apos;ordre de canvi d&apos;usuari no està establerta.</translation>
     </message>
@@ -1086,22 +1141,22 @@ També es reserva un espai per a 3 línies de text.</translation>
 <context>
     <name>PCManFM::PreferencesDialog</name>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="189"/>
+        <location filename="../../preferencesdialog.cpp" line="195"/>
         <source>Icon View</source>
         <translation>Vista d&apos;icones</translation>
     </message>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="190"/>
+        <location filename="../../preferencesdialog.cpp" line="196"/>
         <source>Compact View</source>
         <translation>Vista compacta</translation>
     </message>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="191"/>
+        <location filename="../../preferencesdialog.cpp" line="197"/>
         <source>Thumbnail View</source>
         <translation>Vista de miniatures</translation>
     </message>
     <message>
-        <location filename="../../preferencesdialog.cpp" line="192"/>
+        <location filename="../../preferencesdialog.cpp" line="198"/>
         <source>Detailed List View</source>
         <translation>Vista de llista detallada</translation>
     </message>
@@ -1109,17 +1164,17 @@ També es reserva un espai per a 3 línies de text.</translation>
 <context>
     <name>PCManFM::TabPage</name>
     <message>
-        <location filename="../../tabpage.cpp" line="263"/>
+        <location filename="../../tabpage.cpp" line="279"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../../tabpage.cpp" line="276"/>
+        <location filename="../../tabpage.cpp" line="292"/>
         <source>Free space: %1 (Total: %2)</source>
         <translation>Espai lliure: %1 (Total: %2)</translation>
     </message>
     <message numerus="yes">
-        <location filename="../../tabpage.cpp" line="291"/>
+        <location filename="../../tabpage.cpp" line="309"/>
         <source>%n item(s)</source>
         <translation>
             <numerusform>%n ítem</numerusform>
@@ -1127,7 +1182,7 @@ També es reserva un espai per a 3 línies de text.</translation>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../../tabpage.cpp" line="293"/>
+        <location filename="../../tabpage.cpp" line="311"/>
         <source> (%n hidden)</source>
         <translation>
             <numerusform> (%n ocult)</numerusform>
@@ -1135,11 +1190,11 @@ També es reserva un espai per a 3 línies de text.</translation>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../../tabpage.cpp" line="451"/>
+        <location filename="../../tabpage.cpp" line="485"/>
         <source>%n item(s) selected</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n ítem seleccionat</numerusform>
+            <numerusform>%n ítems seleccionats</numerusform>
         </translation>
     </message>
     <message>
@@ -1152,16 +1207,16 @@ També es reserva un espai per a 3 línies de text.</translation>
     <message>
         <location filename="../../view.cpp" line="102"/>
         <source>Open in New T&amp;ab</source>
-        <translation>Obre en una nova pest&amp;anya</translation>
+        <translation>Obre en una pest&amp;anya nova</translation>
     </message>
     <message>
         <location filename="../../view.cpp" line="106"/>
         <source>Open in New Win&amp;dow</source>
-        <translatorcomment>Obre en una nova &amp;finestra</translatorcomment>
+        <translatorcomment>Obre en una fines&amp;tra nova</translatorcomment>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../view.cpp" line="115"/>
+        <location filename="../../view.cpp" line="114"/>
         <source>Open in Termina&amp;l</source>
         <translation>Obre al termina&amp;l</translation>
     </message>
@@ -1242,7 +1297,7 @@ També es reserva un espai per a 3 línies de text.</translation>
     <message>
         <location filename="../../preferences.ui" line="487"/>
         <source>Show &apos;Close&apos; buttons on tabs	</source>
-        <translation>Mostra els botons de &apos;Tanca&apos; en les pestanyes</translation>
+        <translation>Mostra els botons de &apos;Tanca&apos; en les pestanyes	</translation>
     </message>
     <message>
         <location filename="../../preferences.ui" line="494"/>

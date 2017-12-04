@@ -2,11 +2,11 @@ Source: lxqt-l10n
 Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
 Uploaders: Alf Gaida <agaida@siduction.org>,
            ChangZhuo Chen (陳昌倬) <czchen@debian.org>
-Section: utils
+Section: localization
 Priority: optional
 Build-Depends: debhelper (>= 10),
-               lxqt-build-tools (>= 0.3.1)
-Standards-Version: 4.1.0
+               lxqt-build-tools (>= 0.4.0)
+Standards-Version: 4.1.1
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-l10n.git/?h=debian/sid
 Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-l10n.git -b debian/sid
 Homepage: https://github.com/lxde/lxqt-l10n
@@ -14,7 +14,6 @@ Homepage: https://github.com/lxde/lxqt-l10n
 Package: compton-conf-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: compton-conf (<< 0.2.0)
@@ -25,7 +24,6 @@ Description: Language package for compton-conf
 Package: libfm-qt-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: libfm-qt3 (<< 0.11.1)
@@ -36,7 +34,6 @@ Description: Language package for libfm-qt
 Package: liblxqt-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: liblxqt0 (<< 0.11.0)
@@ -47,7 +44,6 @@ Description: Language package for liblxqt
 Package: lximage-qt-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lximage-qt (<< 0.5.0)
@@ -58,7 +54,6 @@ Description: Language-package for lximage-qt
 Package: lxqt-about-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lxqt-about (<< 0.11.0)
@@ -69,7 +64,6 @@ Description: Language package for lxqt-about
 Package: lxqt-admin-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lxqt-admin (<< 0.11.0)
@@ -77,11 +71,9 @@ Replaces: lxqt-admin (<< 0.11.0)
 Description: Language package for lxqt-admin
  This package contains the l10n files needed by the lxqt-admin.
 
-
 Package: lxqt-config-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lxqt-config (<< 0.11.0)
@@ -92,7 +84,6 @@ Description: Language package for lxqt-config
 Package: lxqt-globalkeys-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lxqt-globalkeys (<< 0.11.0)
@@ -103,7 +94,6 @@ Description: Language package for lxqt-globalkeys
 Package: lxqt-notificationd-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lxqt-notificationd (<< 0.11.0)
@@ -114,7 +104,6 @@ Description: Language package for lxqt-notificationd
 Package: lxqt-openssh-askpass-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lxqt-openssh-askpass (<< 0.11.0)
@@ -125,7 +114,6 @@ Description: Language package for lxqt-openssh-askpass
 Package: lxqt-panel-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lxqt-panel (<< 0.11.0)
@@ -136,7 +124,6 @@ Description: Language package for lxqt-panel
 Package: lxqt-policykit-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lxqt-policykit (<< 0.11.0)
@@ -147,7 +134,6 @@ Description: Language package for lxqt-policykit
 Package: lxqt-powermanagement-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lxqt-powermanagement (<< 0.11.0)
@@ -158,7 +144,6 @@ Description: Language package for lxqt-powermanagement
 Package: lxqt-runner-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lxqt-runner (<< 0.11.0)
@@ -169,7 +154,6 @@ Description: Language package for lxqt-runner
 Package: lxqt-session-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lxqt-session (<< 0.11.0)
@@ -180,7 +164,6 @@ Description: Language package for lxqt-session
 Package: lxqt-sudo-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: lxqt-sudo (<< 0.11.0)
@@ -191,7 +174,6 @@ Description: Language package for lxqt-sudo
 Package: obconf-qt-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: obconf-qt (<< 0.11.0)
@@ -202,7 +184,6 @@ Description: Language package for obconf-qt
 Package: pavucontrol-qt-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Description: Language package for pavucontrol-qt
@@ -211,7 +192,6 @@ Description: Language package for pavucontrol-qt
 Package: pcmanfm-qt-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: pcmanfm-qt (<< 0.11.1)
@@ -222,7 +202,6 @@ Description: Language package for pcmanfm-qt
 Package: qterminal-l10n
 Architecture: all
 Multi-Arch: foreign
-Section: localization
 Depends: ${misc:Depends}
 Recommends: qttranslations5-l10n
 Breaks: qterminal (<< 0.6.1)
