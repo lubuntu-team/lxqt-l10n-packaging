@@ -6,9 +6,9 @@ Section: localization
 Priority: optional
 Build-Depends: debhelper (>= 10),
                lxqt-build-tools (>= 0.4.0)
-Standards-Version: 4.1.1
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-l10n.git/?h=debian/sid
-Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-l10n.git -b debian/sid
+Standards-Version: 4.1.2
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-l10n.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-l10n.git
 Homepage: https://github.com/lxde/lxqt-l10n
 
 Package: compton-conf-l10n
