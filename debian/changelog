@@ -1,3 +1,13 @@
+lxqt-l10n (0.12.0-4) unstable; urgency=medium
+
+  * Moved to salsa, fixed VCS fields that way
+  * Bumped Standards to 4.1.3, no changes needed
+  * Bump debhelper >= 11
+  * Bump compat to 11
+  * Promote  qttranslations5-l10n
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 10 Feb 2018 02:33:12 +0100
+
 lxqt-l10n (0.12.0-3) unstable; urgency=medium
 
   * Fixed typo in changelog
