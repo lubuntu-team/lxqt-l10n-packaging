@@ -1,3 +1,13 @@
+lxqt-l10n (0.12.0-5) unstable; urgency=medium
+
+  * Relaxed debhelper minimum version to >= 11~
+  * Bumped Standards to 4.1.4, no changes needed
+  * Fixed VCS-Browser link
+  * Changed Homepage, Source to lxqt
+  * Removed gbp.conf - we use git-stuff
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Apr 2018 14:08:07 +0200
+
 lxqt-l10n (0.12.0-4) unstable; urgency=medium
 
   * Moved to salsa, fixed VCS fields that way
@@ -11,14 +21,14 @@ lxqt-l10n (0.12.0-4) unstable; urgency=medium
 lxqt-l10n (0.12.0-3) unstable; urgency=medium
 
   * Fixed typo in changelog
-  * Removed branch from VCS-fields 
+  * Removed branch from VCS-fields
   * Bumped Standards to 4.1.2, no changes needed
 
  -- Alf Gaida <agaida@siduction.org>  Wed, 06 Dec 2017 19:31:17 +0100
 
 lxqt-l10n (0.12.0-2) unstable; urgency=medium
 
-  * Transition to unstable 
+  * Transition to unstable
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 04 Dec 2017 18:47:09 +0100
 
@@ -52,7 +62,7 @@ lxqt-l10n (0.11.2-1) unstable; urgency=medium
 
   * Cherry-picking upstream version 0.11.2.
   * Bumped years in d/copyright
-  * Bumped build dependency lxqt-build-tools (>= 0.3.1) 
+  * Bumped build dependency lxqt-build-tools (>= 0.3.1)
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 02 Jan 2017 11:09:31 +0100
 

@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: lxqt-l10n
-Source: https://github.com/lxde/lxqt-l10n
+Source: https://github.com/lxqt/lxqt-l10n
 
 Files: *
 Copyright: 2012-2018 LXQt team
