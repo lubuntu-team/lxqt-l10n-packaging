@@ -5,8 +5,8 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 Section: localization
 Priority: optional
-Build-Depends: debhelper (>= 11~),
-               lxqt-build-tools (>= 0.4.0)
+Build-Depends: debhelper (>= 11),
+               lxqt-build-tools (>= 0.5.0)
 Standards-Version: 4.1.4
 Vcs-Browser: https://phab.lubuntu.me/source/lxqt-l10n/
 Vcs-Git: https://phab.lubuntu.me/source/lxqt-l10n.git
