@@ -1,3 +1,9 @@
+lxqt-l10n (0.13.0-1ubuntu1) focal; urgency=medium
+
+  * Modify build depends.
+
+ -- Raman Sarda <theloudspeaker@lubuntu.me>  Fri, 31 Jan 2020 01:53:17 +0530
+
 lxqt-l10n (0.13.0-0ubuntu1) cosmic; urgency=medium
 
   * New upstream release.
